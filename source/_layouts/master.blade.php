@@ -8,6 +8,10 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
     </head>
     <body class="antialiased font-sans">
-        @yield('body')
+        <div id="app">
+            @yield('body')
+        </div>
+
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </body>
 </html>
