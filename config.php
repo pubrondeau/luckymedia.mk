@@ -37,5 +37,43 @@ return [
             ],
         ]
     ],
+    'technologies' => [
+        '0' => [
+            'name' => 'Php',
+            'img' => 'assets/images/logos/php.png',
+            'img_large' => 'assets/images/logos/php@2x.png',
+            'link' => 'https://www.php.net/'
+        ],
+        '1' => [
+            'name' => 'Laravel',
+            'img' => 'assets/images/logos/laravel.png',
+            'img_large' => 'assets/images/logos/laravel@2x.png',
+            'link' => 'https://www.laravel.com/'
+        ],
+        '2' => [
+            'name' => 'Tailwind',
+            'img' => 'assets/images/logos/tailwind.png',
+            'img_large' => 'assets/images/logos/tailwind@2x.png',
+            'link' => 'https://tailwindcss.com/'
+        ],
+        '3' => [
+            'name' => 'Javascript',
+            'img' => 'assets/images/logos/js.png',
+            'img_large' => 'assets/images/logos/js@2x.png',
+            'link' => '/'
+        ],
+        '4' => [
+            'name' => 'VueJS',
+            'img' => 'assets/images/logos/vue.png',
+            'img_large' => 'assets/images/logos/vue@2x.png',
+            'link' => 'https://vuejs.org/'
+        ],
+        '5' => [
+            'name' => 'ReactJS',
+            'img' => 'assets/images/logos/react.png',
+            'img_large' => 'assets/images/logos/react@2x.png',
+            'link' => 'https://reactjs.org/'
+        ],
+    ],
     'collections' => [],
 ];

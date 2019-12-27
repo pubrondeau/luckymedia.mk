@@ -20,7 +20,9 @@ module.exports = {
     },
     extend: {}
   },
-  variants: {},
+  variants: {
+    margin: ['responsive', 'last']
+  },
   corePlugins: {
     container: false,
   },
