@@ -4,6 +4,32 @@ return [
     'production' => false,
     'baseUrl' => '',
     'homepage' => [
+        'menu' => [
+            0 => [
+                'name' => 'Home',
+                'link' => '/'
+            ],
+            1 => [
+                'name' => 'About us',
+                'link' => '/about'
+            ],
+            2 => [
+                'name' => 'Services',
+                'link' => '/services'
+            ],
+            3 => [
+                'name' => 'Portfolio',
+                'link' => '/portfolio'
+            ],
+            4 => [
+                'name' => 'Blog',
+                'link' => '/blog'
+            ],
+            5 => [
+                'name' => 'Contact',
+                'link' => '/contact'
+            ]
+        ],
         'cards' => [
             '0' => [
                 'icon' => 'thunder',
