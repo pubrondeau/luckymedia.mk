@@ -1,4 +1,4 @@
-<div class="container pb-56">
+<div class="container pb-24 lg:pb-56">
     <div class="row justify-center">
         <div class="flex flex-col items-center">
             <div style="width: 2px;" class="h-24 bg-blue-500 -mt-12"></div>
@@ -10,11 +10,13 @@
         </div>
     </div>
 
-    <div class="row mt-32">
-        @for ($i = 0; $i < 3; $i++)
-            <div class="lg:col-4 mb-24 last:mb-0 lg:mb-0">
-                @include('_components.testimonial', ['body' => 'These guys are legit. I’ll never hire another agency as long as I’m working. They are also extremely helpful and amazing.', 'author' => 'Ali Karbassi', 'position' => 'CEO @ We All Code', 'img' => 'https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg'])
-            </div>
-        @endfor
+    <div class="mt-20 lg:mt-32">
+        <div class="testimonials">
+            @foreach ($page->homepage->testimonials as $testimonial)
+                <div class="lg:col-4 mb-24 last:mb-0 lg:mb-0">
+                    @include('_components.testimonial', ['body' => $testimonial->body, 'author' => $testimonial->author, 'position' => $testimonial->position, 'img' => $testimonial->img])
+                </div>
+            @endforeach
+        </div>
     </div>
 </div>
