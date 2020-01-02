@@ -11,11 +11,13 @@ return [
             ],
             1 => [
                 'name' => 'About us',
-                'link' => '/about'
+                'link' => '#about',
+                'scroll' => true,
             ],
             2 => [
                 'name' => 'Services',
-                'link' => '/services'
+                'link' => '#services',
+                'scroll' => true,
             ],
             3 => [
                 'name' => 'Portfolio',

@@ -22,7 +22,7 @@
                     <h1 class="text-3xl md:text-5xl text-white font-bold">Have a project in mind?</h1>
                     <p class="font-medium text-base text-white mt-3">Lorem ipsum dolores sit amet</p>
                     <a href="/contact"
-                       class="w-40 py-3 border border-white text-center text-white uppercase mt-10 hover:bg-white hover:text-black">Contact
+                       class="w-40 py-3 border border-white text-center text-white uppercase mt-10 hover:bg-white hover:text-black animate">Contact
                         us</a>
                 </div>
             </div>

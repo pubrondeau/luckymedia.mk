@@ -13,10 +13,12 @@ module.exports = {
         50: '#F6F6F6'
       },
       blue: {
+        400: '#D3E1FD',
         500: '#2653E3'
       },
       black: '#000',
       white: '#fff',
+      transparent: 'transparent'
     },
     extend: {}
   },

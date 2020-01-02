@@ -1,4 +1,4 @@
-<div class="container mt-32">
+<div id="services" class="container mt-32">
     <div class="row">
         <div class="lg:col-2">
             @include('_components.heading-sm', ['color' => 'black', 'title' => 'What we do'])

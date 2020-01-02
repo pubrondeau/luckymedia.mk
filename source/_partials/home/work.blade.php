@@ -1,5 +1,5 @@
 <div class="bg-gray-50">
-    <div class="container pb-56">
+    <div class="container pb-40">
         <div class="row justify-center">
             <div class="flex flex-col items-center">
                 <div style="width: 2px;" class="h-24 bg-blue-500 -mt-12"></div>
@@ -17,6 +17,12 @@
                          src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
                          alt="">
                 </div>
+            </div>
+        </div>
+        <div class="row mt-16 md:mt-32">
+            <div class="flex flex-col justify-center items-center mx-auto">
+                <h2 class="text-3xl font-bold">Democracy Lab</h2>
+                <div class="bg-blue-400 px-2 py-1 text-blue-500 uppercase rounded mt-4">Design</div>
             </div>
         </div>
     </div>

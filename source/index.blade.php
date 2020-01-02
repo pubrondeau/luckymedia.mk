@@ -22,7 +22,7 @@
 
     <img class="w-full h-auto" src="assets/images/mountain_hero.png" alt="">
 
-    <div class="bg-black">
+    <div id="about" class="bg-black">
         <div class="container py-16">
             <div class="row justify-center">
                 <svg class="block fill-current w-12 h-12 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
