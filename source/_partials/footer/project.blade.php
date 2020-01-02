@@ -10,6 +10,6 @@
             </div>
         </div>
     </div>
-    <img style="height: 500px;" class="hidden md:block absolute right-0 top-0 object-cover" src="assets/images/black_mnt.png"
-         srcset="assets/images/black_mnt@2x.png" alt="">
+    <img style="height: 500px;" class="hidden md:block absolute right-0 top-0 object-cover" src="/assets/images/black_mnt.png"
+         srcset="/assets/images/black_mnt@2x.png" alt="">
 </div>

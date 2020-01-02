@@ -1,5 +1,5 @@
 <div>
-    <img src="assets/images/footer_mnt.png" srcset="assets/images/footer_mnt@2x.png" class="w-full h-auto" alt="">
+    <img src="/assets/images/footer_mnt.png" srcset="/assets/images/footer_mnt@2x.png" class="w-full h-auto" alt="">
     <div class="container lg:-mt-32 xl:-mt-40">
         <div class="row flex flex-col">
             <div class="col-12">
