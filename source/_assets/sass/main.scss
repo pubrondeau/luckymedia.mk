@@ -43,6 +43,12 @@
   }
 }
 
+@keyframes moveSlider {
+  100% {
+    transform: translateX(-66%);
+  }
+}
+
 .menu-item-active {
   @apply relative;
 

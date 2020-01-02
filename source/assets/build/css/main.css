@@ -6667,6 +6667,20 @@ video {
   transition: all 0.25s ease-in;
 }
 
+@-webkit-keyframes moveSlider {
+  100% {
+    -webkit-transform: translateX(-66%);
+            transform: translateX(-66%);
+  }
+}
+
+@keyframes moveSlider {
+  100% {
+    -webkit-transform: translateX(-66%);
+            transform: translateX(-66%);
+  }
+}
+
 .menu-item-active {
   position: relative;
 }

@@ -1,10 +1,6 @@
 @extends('_layouts.master')
 
 @section('body')
-    {{-- Menu Component --}}
-    <v-menu menus="{{ $page->homepage->menu }}"></v-menu>
-    {{-- Menu Component --}}
-
     <div class="container mt-24 mb-32">
         <div class="row items-center">
             <div class="lg:col-5">
