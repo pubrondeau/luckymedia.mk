@@ -802,47 +802,47 @@ video {
   background-color: transparent;
 }
 
-.focus\:bg-gray-50:focus {
+.group:hover .group-hover\:bg-gray-50 {
   background-color: #F6F6F6;
 }
 
-.focus\:bg-gray-100:focus {
+.group:hover .group-hover\:bg-gray-100 {
   background-color: #E6E6E6;
 }
 
-.focus\:bg-gray-200:focus {
+.group:hover .group-hover\:bg-gray-200 {
   background-color: #808080;
 }
 
-.focus\:bg-gray-300:focus {
+.group:hover .group-hover\:bg-gray-300 {
   background-color: #6B6B6B;
 }
 
-.focus\:bg-gray-400:focus {
+.group:hover .group-hover\:bg-gray-400 {
   background-color: #4D4D4D;
 }
 
-.focus\:bg-gray-500:focus {
+.group:hover .group-hover\:bg-gray-500 {
   background-color: #333333;
 }
 
-.focus\:bg-blue-400:focus {
+.group:hover .group-hover\:bg-blue-400 {
   background-color: #D3E1FD;
 }
 
-.focus\:bg-blue-500:focus {
+.group:hover .group-hover\:bg-blue-500 {
   background-color: #2653E3;
 }
 
-.focus\:bg-black:focus {
+.group:hover .group-hover\:bg-black {
   background-color: #000;
 }
 
-.focus\:bg-white:focus {
+.group:hover .group-hover\:bg-white {
   background-color: #fff;
 }
 
-.focus\:bg-transparent:focus {
+.group:hover .group-hover\:bg-transparent {
   background-color: transparent;
 }
 
@@ -5827,47 +5827,47 @@ video {
   color: transparent;
 }
 
-.focus\:text-gray-50:focus {
+.group:hover .group-hover\:text-gray-50 {
   color: #F6F6F6;
 }
 
-.focus\:text-gray-100:focus {
+.group:hover .group-hover\:text-gray-100 {
   color: #E6E6E6;
 }
 
-.focus\:text-gray-200:focus {
+.group:hover .group-hover\:text-gray-200 {
   color: #808080;
 }
 
-.focus\:text-gray-300:focus {
+.group:hover .group-hover\:text-gray-300 {
   color: #6B6B6B;
 }
 
-.focus\:text-gray-400:focus {
+.group:hover .group-hover\:text-gray-400 {
   color: #4D4D4D;
 }
 
-.focus\:text-gray-500:focus {
+.group:hover .group-hover\:text-gray-500 {
   color: #333333;
 }
 
-.focus\:text-blue-400:focus {
+.group:hover .group-hover\:text-blue-400 {
   color: #D3E1FD;
 }
 
-.focus\:text-blue-500:focus {
+.group:hover .group-hover\:text-blue-500 {
   color: #2653E3;
 }
 
-.focus\:text-black:focus {
+.group:hover .group-hover\:text-black {
   color: #000;
 }
 
-.focus\:text-white:focus {
+.group:hover .group-hover\:text-white {
   color: #fff;
 }
 
-.focus\:text-transparent:focus {
+.group:hover .group-hover\:text-transparent {
   color: transparent;
 }
 
@@ -6696,6 +6696,87 @@ video {
   transition: all 0.25s ease-in;
 }
 
+.md-content p {
+  font-weight: 500;
+  color: #808080;
+  text-align: justify;
+}
+
+.link {
+  border-color: #6B6B6B;
+  border-width: 2px;
+  color: #6B6B6B;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.link:hover {
+  background-color: #2653E3;
+  border-color: #2653E3;
+  color: #fff;
+}
+
+.link-active {
+  border-color: #2653E3;
+  color: #fff;
+}
+
+.form {
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  letter-spacing: 0.025em;
+  color: #808080;
+  font-size: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #F6F6F6;
+  border-width: 1px;
+  border-color: #E6E6E6;
+}
+
+.form-input {
+  height: 2.5rem;
+}
+
+.form-area {
+  height: 14rem;
+}
+
+.form::-webkit-input-placeholder {
+  color: #808080;
+  letter-spacing: 0.025em;
+}
+
+.form::-moz-placeholder {
+  color: #808080;
+  letter-spacing: 0.025em;
+}
+
+.form:-ms-input-placeholder {
+  color: #808080;
+  letter-spacing: 0.025em;
+}
+
+.form::-ms-input-placeholder {
+  color: #808080;
+  letter-spacing: 0.025em;
+}
+
+.form::placeholder {
+  color: #808080;
+  letter-spacing: 0.025em;
+}
+
+.form:focus {
+  border-color: #6B6B6B;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -6849,47 +6930,47 @@ video {
     background-color: transparent;
   }
 
-  .sm\:focus\:bg-gray-50:focus {
+  .group:hover .sm\:group-hover\:bg-gray-50 {
     background-color: #F6F6F6;
   }
 
-  .sm\:focus\:bg-gray-100:focus {
+  .group:hover .sm\:group-hover\:bg-gray-100 {
     background-color: #E6E6E6;
   }
 
-  .sm\:focus\:bg-gray-200:focus {
+  .group:hover .sm\:group-hover\:bg-gray-200 {
     background-color: #808080;
   }
 
-  .sm\:focus\:bg-gray-300:focus {
+  .group:hover .sm\:group-hover\:bg-gray-300 {
     background-color: #6B6B6B;
   }
 
-  .sm\:focus\:bg-gray-400:focus {
+  .group:hover .sm\:group-hover\:bg-gray-400 {
     background-color: #4D4D4D;
   }
 
-  .sm\:focus\:bg-gray-500:focus {
+  .group:hover .sm\:group-hover\:bg-gray-500 {
     background-color: #333333;
   }
 
-  .sm\:focus\:bg-blue-400:focus {
+  .group:hover .sm\:group-hover\:bg-blue-400 {
     background-color: #D3E1FD;
   }
 
-  .sm\:focus\:bg-blue-500:focus {
+  .group:hover .sm\:group-hover\:bg-blue-500 {
     background-color: #2653E3;
   }
 
-  .sm\:focus\:bg-black:focus {
+  .group:hover .sm\:group-hover\:bg-black {
     background-color: #000;
   }
 
-  .sm\:focus\:bg-white:focus {
+  .group:hover .sm\:group-hover\:bg-white {
     background-color: #fff;
   }
 
-  .sm\:focus\:bg-transparent:focus {
+  .group:hover .sm\:group-hover\:bg-transparent {
     background-color: transparent;
   }
 
@@ -11874,47 +11955,47 @@ video {
     color: transparent;
   }
 
-  .sm\:focus\:text-gray-50:focus {
+  .group:hover .sm\:group-hover\:text-gray-50 {
     color: #F6F6F6;
   }
 
-  .sm\:focus\:text-gray-100:focus {
+  .group:hover .sm\:group-hover\:text-gray-100 {
     color: #E6E6E6;
   }
 
-  .sm\:focus\:text-gray-200:focus {
+  .group:hover .sm\:group-hover\:text-gray-200 {
     color: #808080;
   }
 
-  .sm\:focus\:text-gray-300:focus {
+  .group:hover .sm\:group-hover\:text-gray-300 {
     color: #6B6B6B;
   }
 
-  .sm\:focus\:text-gray-400:focus {
+  .group:hover .sm\:group-hover\:text-gray-400 {
     color: #4D4D4D;
   }
 
-  .sm\:focus\:text-gray-500:focus {
+  .group:hover .sm\:group-hover\:text-gray-500 {
     color: #333333;
   }
 
-  .sm\:focus\:text-blue-400:focus {
+  .group:hover .sm\:group-hover\:text-blue-400 {
     color: #D3E1FD;
   }
 
-  .sm\:focus\:text-blue-500:focus {
+  .group:hover .sm\:group-hover\:text-blue-500 {
     color: #2653E3;
   }
 
-  .sm\:focus\:text-black:focus {
+  .group:hover .sm\:group-hover\:text-black {
     color: #000;
   }
 
-  .sm\:focus\:text-white:focus {
+  .group:hover .sm\:group-hover\:text-white {
     color: #fff;
   }
 
-  .sm\:focus\:text-transparent:focus {
+  .group:hover .sm\:group-hover\:text-transparent {
     color: transparent;
   }
 
@@ -12742,47 +12823,47 @@ video {
     background-color: transparent;
   }
 
-  .md\:focus\:bg-gray-50:focus {
+  .group:hover .md\:group-hover\:bg-gray-50 {
     background-color: #F6F6F6;
   }
 
-  .md\:focus\:bg-gray-100:focus {
+  .group:hover .md\:group-hover\:bg-gray-100 {
     background-color: #E6E6E6;
   }
 
-  .md\:focus\:bg-gray-200:focus {
+  .group:hover .md\:group-hover\:bg-gray-200 {
     background-color: #808080;
   }
 
-  .md\:focus\:bg-gray-300:focus {
+  .group:hover .md\:group-hover\:bg-gray-300 {
     background-color: #6B6B6B;
   }
 
-  .md\:focus\:bg-gray-400:focus {
+  .group:hover .md\:group-hover\:bg-gray-400 {
     background-color: #4D4D4D;
   }
 
-  .md\:focus\:bg-gray-500:focus {
+  .group:hover .md\:group-hover\:bg-gray-500 {
     background-color: #333333;
   }
 
-  .md\:focus\:bg-blue-400:focus {
+  .group:hover .md\:group-hover\:bg-blue-400 {
     background-color: #D3E1FD;
   }
 
-  .md\:focus\:bg-blue-500:focus {
+  .group:hover .md\:group-hover\:bg-blue-500 {
     background-color: #2653E3;
   }
 
-  .md\:focus\:bg-black:focus {
+  .group:hover .md\:group-hover\:bg-black {
     background-color: #000;
   }
 
-  .md\:focus\:bg-white:focus {
+  .group:hover .md\:group-hover\:bg-white {
     background-color: #fff;
   }
 
-  .md\:focus\:bg-transparent:focus {
+  .group:hover .md\:group-hover\:bg-transparent {
     background-color: transparent;
   }
 
@@ -17767,47 +17848,47 @@ video {
     color: transparent;
   }
 
-  .md\:focus\:text-gray-50:focus {
+  .group:hover .md\:group-hover\:text-gray-50 {
     color: #F6F6F6;
   }
 
-  .md\:focus\:text-gray-100:focus {
+  .group:hover .md\:group-hover\:text-gray-100 {
     color: #E6E6E6;
   }
 
-  .md\:focus\:text-gray-200:focus {
+  .group:hover .md\:group-hover\:text-gray-200 {
     color: #808080;
   }
 
-  .md\:focus\:text-gray-300:focus {
+  .group:hover .md\:group-hover\:text-gray-300 {
     color: #6B6B6B;
   }
 
-  .md\:focus\:text-gray-400:focus {
+  .group:hover .md\:group-hover\:text-gray-400 {
     color: #4D4D4D;
   }
 
-  .md\:focus\:text-gray-500:focus {
+  .group:hover .md\:group-hover\:text-gray-500 {
     color: #333333;
   }
 
-  .md\:focus\:text-blue-400:focus {
+  .group:hover .md\:group-hover\:text-blue-400 {
     color: #D3E1FD;
   }
 
-  .md\:focus\:text-blue-500:focus {
+  .group:hover .md\:group-hover\:text-blue-500 {
     color: #2653E3;
   }
 
-  .md\:focus\:text-black:focus {
+  .group:hover .md\:group-hover\:text-black {
     color: #000;
   }
 
-  .md\:focus\:text-white:focus {
+  .group:hover .md\:group-hover\:text-white {
     color: #fff;
   }
 
-  .md\:focus\:text-transparent:focus {
+  .group:hover .md\:group-hover\:text-transparent {
     color: transparent;
   }
 
@@ -18635,47 +18716,47 @@ video {
     background-color: transparent;
   }
 
-  .lg\:focus\:bg-gray-50:focus {
+  .group:hover .lg\:group-hover\:bg-gray-50 {
     background-color: #F6F6F6;
   }
 
-  .lg\:focus\:bg-gray-100:focus {
+  .group:hover .lg\:group-hover\:bg-gray-100 {
     background-color: #E6E6E6;
   }
 
-  .lg\:focus\:bg-gray-200:focus {
+  .group:hover .lg\:group-hover\:bg-gray-200 {
     background-color: #808080;
   }
 
-  .lg\:focus\:bg-gray-300:focus {
+  .group:hover .lg\:group-hover\:bg-gray-300 {
     background-color: #6B6B6B;
   }
 
-  .lg\:focus\:bg-gray-400:focus {
+  .group:hover .lg\:group-hover\:bg-gray-400 {
     background-color: #4D4D4D;
   }
 
-  .lg\:focus\:bg-gray-500:focus {
+  .group:hover .lg\:group-hover\:bg-gray-500 {
     background-color: #333333;
   }
 
-  .lg\:focus\:bg-blue-400:focus {
+  .group:hover .lg\:group-hover\:bg-blue-400 {
     background-color: #D3E1FD;
   }
 
-  .lg\:focus\:bg-blue-500:focus {
+  .group:hover .lg\:group-hover\:bg-blue-500 {
     background-color: #2653E3;
   }
 
-  .lg\:focus\:bg-black:focus {
+  .group:hover .lg\:group-hover\:bg-black {
     background-color: #000;
   }
 
-  .lg\:focus\:bg-white:focus {
+  .group:hover .lg\:group-hover\:bg-white {
     background-color: #fff;
   }
 
-  .lg\:focus\:bg-transparent:focus {
+  .group:hover .lg\:group-hover\:bg-transparent {
     background-color: transparent;
   }
 
@@ -23660,47 +23741,47 @@ video {
     color: transparent;
   }
 
-  .lg\:focus\:text-gray-50:focus {
+  .group:hover .lg\:group-hover\:text-gray-50 {
     color: #F6F6F6;
   }
 
-  .lg\:focus\:text-gray-100:focus {
+  .group:hover .lg\:group-hover\:text-gray-100 {
     color: #E6E6E6;
   }
 
-  .lg\:focus\:text-gray-200:focus {
+  .group:hover .lg\:group-hover\:text-gray-200 {
     color: #808080;
   }
 
-  .lg\:focus\:text-gray-300:focus {
+  .group:hover .lg\:group-hover\:text-gray-300 {
     color: #6B6B6B;
   }
 
-  .lg\:focus\:text-gray-400:focus {
+  .group:hover .lg\:group-hover\:text-gray-400 {
     color: #4D4D4D;
   }
 
-  .lg\:focus\:text-gray-500:focus {
+  .group:hover .lg\:group-hover\:text-gray-500 {
     color: #333333;
   }
 
-  .lg\:focus\:text-blue-400:focus {
+  .group:hover .lg\:group-hover\:text-blue-400 {
     color: #D3E1FD;
   }
 
-  .lg\:focus\:text-blue-500:focus {
+  .group:hover .lg\:group-hover\:text-blue-500 {
     color: #2653E3;
   }
 
-  .lg\:focus\:text-black:focus {
+  .group:hover .lg\:group-hover\:text-black {
     color: #000;
   }
 
-  .lg\:focus\:text-white:focus {
+  .group:hover .lg\:group-hover\:text-white {
     color: #fff;
   }
 
-  .lg\:focus\:text-transparent:focus {
+  .group:hover .lg\:group-hover\:text-transparent {
     color: transparent;
   }
 
@@ -24528,47 +24609,47 @@ video {
     background-color: transparent;
   }
 
-  .xl\:focus\:bg-gray-50:focus {
+  .group:hover .xl\:group-hover\:bg-gray-50 {
     background-color: #F6F6F6;
   }
 
-  .xl\:focus\:bg-gray-100:focus {
+  .group:hover .xl\:group-hover\:bg-gray-100 {
     background-color: #E6E6E6;
   }
 
-  .xl\:focus\:bg-gray-200:focus {
+  .group:hover .xl\:group-hover\:bg-gray-200 {
     background-color: #808080;
   }
 
-  .xl\:focus\:bg-gray-300:focus {
+  .group:hover .xl\:group-hover\:bg-gray-300 {
     background-color: #6B6B6B;
   }
 
-  .xl\:focus\:bg-gray-400:focus {
+  .group:hover .xl\:group-hover\:bg-gray-400 {
     background-color: #4D4D4D;
   }
 
-  .xl\:focus\:bg-gray-500:focus {
+  .group:hover .xl\:group-hover\:bg-gray-500 {
     background-color: #333333;
   }
 
-  .xl\:focus\:bg-blue-400:focus {
+  .group:hover .xl\:group-hover\:bg-blue-400 {
     background-color: #D3E1FD;
   }
 
-  .xl\:focus\:bg-blue-500:focus {
+  .group:hover .xl\:group-hover\:bg-blue-500 {
     background-color: #2653E3;
   }
 
-  .xl\:focus\:bg-black:focus {
+  .group:hover .xl\:group-hover\:bg-black {
     background-color: #000;
   }
 
-  .xl\:focus\:bg-white:focus {
+  .group:hover .xl\:group-hover\:bg-white {
     background-color: #fff;
   }
 
-  .xl\:focus\:bg-transparent:focus {
+  .group:hover .xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
 
@@ -29553,47 +29634,47 @@ video {
     color: transparent;
   }
 
-  .xl\:focus\:text-gray-50:focus {
+  .group:hover .xl\:group-hover\:text-gray-50 {
     color: #F6F6F6;
   }
 
-  .xl\:focus\:text-gray-100:focus {
+  .group:hover .xl\:group-hover\:text-gray-100 {
     color: #E6E6E6;
   }
 
-  .xl\:focus\:text-gray-200:focus {
+  .group:hover .xl\:group-hover\:text-gray-200 {
     color: #808080;
   }
 
-  .xl\:focus\:text-gray-300:focus {
+  .group:hover .xl\:group-hover\:text-gray-300 {
     color: #6B6B6B;
   }
 
-  .xl\:focus\:text-gray-400:focus {
+  .group:hover .xl\:group-hover\:text-gray-400 {
     color: #4D4D4D;
   }
 
-  .xl\:focus\:text-gray-500:focus {
+  .group:hover .xl\:group-hover\:text-gray-500 {
     color: #333333;
   }
 
-  .xl\:focus\:text-blue-400:focus {
+  .group:hover .xl\:group-hover\:text-blue-400 {
     color: #D3E1FD;
   }
 
-  .xl\:focus\:text-blue-500:focus {
+  .group:hover .xl\:group-hover\:text-blue-500 {
     color: #2653E3;
   }
 
-  .xl\:focus\:text-black:focus {
+  .group:hover .xl\:group-hover\:text-black {
     color: #000;
   }
 
-  .xl\:focus\:text-white:focus {
+  .group:hover .xl\:group-hover\:text-white {
     color: #fff;
   }
 
-  .xl\:focus\:text-transparent:focus {
+  .group:hover .xl\:group-hover\:text-transparent {
     color: transparent;
   }
 

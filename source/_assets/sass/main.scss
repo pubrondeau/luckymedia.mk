@@ -62,3 +62,39 @@
     transition: all 0.25s ease-in;
   }
 }
+
+.md-content p {
+  @apply font-medium text-gray-200 text-justify;
+}
+
+.link {
+  @apply border-gray-300 border-2 text-gray-300 px-4 py-2 rounded;
+
+  &:hover {
+    @apply bg-blue-500 border-blue-500 text-white;
+  }
+
+  &-active {
+      @apply border-blue-500 text-white;
+  }
+}
+
+.form {
+  @apply w-full appearance-none outline-none tracking-wide text-gray-200 text-xs px-4 bg-gray-50 border border-gray-100;
+
+  &-input {
+    @apply h-10;
+  }
+
+  &-area {
+    @apply h-56;
+  }
+
+  &::placeholder {
+    @apply text-gray-200 tracking-wide;
+  }
+
+  &:focus {
+    @apply border-gray-300;
+  }
+}

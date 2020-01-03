@@ -141,5 +141,11 @@ return [
             'link' => 'https://reactjs.org/'
         ],
     ],
-    'collections' => [],
+    'collections' => [
+        'projects' => [
+            'path' => 'portfolio/{filename}',
+            'extends' => '_layouts.project',
+            'sort' => '-date',
+        ]
+    ],
 ];

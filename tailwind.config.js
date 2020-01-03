@@ -23,7 +23,9 @@ module.exports = {
     extend: {}
   },
   variants: {
-    margin: ['responsive', 'last']
+    margin: ['responsive', 'last'],
+    textColor: ['responsive', 'hover', 'group-hover'],
+    backgroundColor: ['responsive', 'hover', 'group-hover'],
   },
   corePlugins: {
     container: false,
