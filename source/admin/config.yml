@@ -18,7 +18,13 @@ collections:
     format: "yaml-frontmatter"
     fields:
       - {label: "Author", name: "author", required: true, widget: "string"}
-      - {label: "Position", name: "position", widget: "string", default: "Position"}
-      - {label: "Link", name: "link", widget: "string", default: "Link"}
-      - {label: "Image", name: "img", widget: "string", required: true}
+      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+      - label: "Author Image"
+        name: "img"
+        widget: "image"
+        required: true
+        media_library:
+          config:
+            multiple: false
       - {label: "Body", name: "content", widget: "markdown"}
