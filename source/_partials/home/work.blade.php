@@ -1,3 +1,7 @@
+@php
+    {{ $project = $projects->reverse()->first(); }}
+@endphp
+
 <div class="bg-gray-50">
     <div class="container pb-40">
         <div class="row justify-center">
@@ -14,15 +18,19 @@
             <div class="lg:col-8 dots">
                 <div class="bg-white shadow-lg p-4">
                     <img class="w-full h-auto"
-                         src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+                         src="{{ $project->cover }}"
                          alt="">
                 </div>
             </div>
         </div>
         <div class="row mt-16 md:mt-32">
             <div class="flex flex-col justify-center items-center mx-auto">
-                <h2 class="text-3xl font-bold">Democracy Lab</h2>
-                <div class="bg-blue-400 px-2 py-1 text-blue-500 uppercase rounded mt-4">Design</div>
+                <h2 class="text-3xl font-bold">{{ $project->client }}</h2>
+               <div class="flex flex-row">
+                   @foreach($project->tags as $tags)
+                       <div class="bg-blue-400 px-2 py-1 text-blue-500 uppercase rounded mt-4 mr-2 last:mr-0">{{ $tags }}</div>
+                   @endforeach
+               </div>
             </div>
         </div>
     </div>

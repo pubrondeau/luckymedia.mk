@@ -6696,6 +6696,12 @@ video {
   transition: all 0.25s ease-in;
 }
 
+.testimonial {
+  font-weight: 500;
+  color: #808080;
+  text-align: justify;
+}
+
 .md-content p {
   font-weight: 500;
   color: #808080;

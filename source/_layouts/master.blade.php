@@ -24,5 +24,6 @@
     @include('_partials.footer.copyright')
 </footer>
 <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+@include('_partials.cms.identity_redirect')
 </body>
 </html>

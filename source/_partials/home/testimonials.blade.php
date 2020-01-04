@@ -12,9 +12,9 @@
 
     <div class="mt-20 lg:mt-32">
         <div class="testimonials">
-            @foreach ($page->homepage->testimonials as $testimonial)
+            @foreach ($testimonials as $testimonial)
                 <div class="lg:col-4 mb-24 last:mb-0 lg:mb-0">
-                    @include('_components.testimonial', ['body' => $testimonial->body, 'author' => $testimonial->author, 'position' => $testimonial->position, 'img' => $testimonial->img])
+                    @include('_components.testimonial', ['body' => $testimonial->getContent(), 'author' => $testimonial->author, 'position' => $testimonial->position, 'img' => $testimonial->img])
                 </div>
             @endforeach
         </div>

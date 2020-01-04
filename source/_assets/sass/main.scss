@@ -63,6 +63,10 @@
   }
 }
 
+.testimonial {
+  @apply font-medium text-gray-200 text-justify;
+}
+
 .md-content p {
   @apply font-medium text-gray-200 text-justify;
 }
@@ -75,7 +79,7 @@
   }
 
   &-active {
-      @apply border-blue-500 text-white;
+    @apply border-blue-500 text-white;
   }
 }
 
