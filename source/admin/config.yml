@@ -27,4 +27,4 @@ collections:
         media_library:
           config:
             multiple: false
-      - {label: "Body", name: "content", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
