@@ -1,5 +1,13 @@
 @extends('_layouts.master')
 
+@push('meta')
+    <meta property="og:title" content="{{ $page->siteName }} | {{ $page->title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ $page->getUrl() }}"/>
+    <meta property="og:description" content="{{ $page->getDescription() }}" />
+    <meta property="og:image" content="{{ $page->cover }}" />
+@endpush
+
 @section('body')
 
     @include('_components.heading-image', ['title' => $page->title, 'client' => $page->client])
@@ -14,8 +22,8 @@
             <div class="lg:col-4 mb-24 lg:mb-0">
                 <div class="flex flex-col">
                     <h4 class="text-xl lg:text-2xl font-bold">Description</h4>
-                    <div class="mt-3 md-content">
-                        @yield('content')
+                    <div class="mt-3 font-medium text-gray-200 text-justify">
+                        {{ $page->getDescription() }}
                     </div>
                 </div>
 

@@ -3,6 +3,8 @@
 return [
     'production' => false,
     'baseUrl' => '',
+    'siteName' => 'Lucky Media',
+    'siteDescription' => 'Creative digital agency. Building the web of tomorrow.',
     'homepage' => [
         'menu' => [
             0 => [
@@ -113,4 +115,9 @@ return [
             'sort' => '-date'
         ]
     ],
+
+    'getDescription' => function($page)
+    {
+        return strip_tags($page->getContent());
+    }
 ];

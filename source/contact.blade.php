@@ -1,5 +1,12 @@
 @extends('_layouts.master')
 
+@push('meta')
+    <meta property="og:title" content="{{ $page->siteName }} | Contact" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ $page->getUrl() }}"/>
+    <meta property="og:description" content="Get in touch with us" />
+@endpush
+
 @section('body')
     <div style="background: url('/assets/images/map@2x.png') no-repeat center center / cover;">
         <div class="container py-32">

@@ -1,5 +1,12 @@
 @extends('_layouts.master')
 
+@push('testimonials')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    <!--[if (lt IE 9)]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script>
+    <![endif]-->
+@endpush
+
 @section('body')
     <div class="container mt-24 mb-32">
         <div class="row items-center">
