@@ -1,0 +1,105 @@
+.menu-wrap {
+
+    input {
+        @apply hidden;
+        opacity: 0;
+    }
+
+    input+label {
+        @apply fixed w-12 h-12;
+        top: 20px;
+        right: 25px;
+        z-index: 5;
+
+        span {
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            top: 45%;
+            margin-top: -1px;
+            left: 0;
+            display: block;
+            background: #000;
+            transition: .5s;
+        }
+
+        span:first-child {
+            top: 8px;
+        }
+
+        span:last-child {
+            top: 34px;
+        }
+    }
+
+    label:hover {
+        cursor: pointer;
+    }
+
+    input:checked+label {
+        span {
+            opacity: 0;
+            top: 50%;
+        }
+
+        span:first-child {
+            opacity: 1;
+            background: #fff;
+            transform: rotate(405deg);
+        }
+
+        span:last-child {
+            opacity: 1;
+            background: #fff;
+            transform: rotate(-405deg);
+        }
+    }
+
+    input~nav {
+        @apply overflow-hidden fixed top-0 left-0 w-full h-0;
+        background: transparent;
+        z-index: 3;
+        transition: .5s;
+        transition-delay: .5s;
+        overflow: hidden;
+
+        >ul {
+            @apply w-full overflow-y-auto flex flex-col justify-end;
+            top: 10%;
+
+            >li {
+                @apply text-left leading-none py-8 border-blue-500;
+                border-bottom-width: 3px;
+                opacity: 0;
+                transition: .5s;
+                transition-delay: 0s;
+
+                >a {
+                    @apply block no-underline text-2xl uppercase text-white font-bold;
+
+                    @screen lg {
+                        @apply text-6xl;
+                    }
+                }
+            }
+        }
+    }
+
+    input:checked~nav {
+        background: rgba(0, 0, 0, 0.95);
+        height: 100%;
+        transition-delay: 0s;
+
+        >ul {
+            >li {
+                opacity: 1;
+                transition-delay: .5s;
+            }
+        }
+
+        label::before {
+            @apply text-white;
+        }
+    }
+
+}
