@@ -1,11 +1,30 @@
-window.Vue = require('vue');
+import {
+    tns
+} from "tiny-slider/src/tiny-slider.module.js";
 
-Vue.config.productionTip = false;
+const testimonials = document.querySelector('.testimonials');
 
-Vue.component('v-icon', require('./components/Icon.vue').default);
-
-const app = new Vue({
-    el: '#app',
-});
-
-require('./bootstrap');
+if (testimonials) {
+    let slider = tns({
+        container: testimonials,
+        nav: true,
+        controls: false,
+        autoHeight: true,
+        items: 3,
+        center: true,
+        autoplay: true,
+        autoplayTimeout: 4500,
+        autoplayButtonOutput: false,
+        responsive: {
+            320: {
+                items: 1,
+            },
+            766: {
+                items: 2,
+            },
+            1024: {
+                items: 3,
+            }
+        }
+    });
+}
