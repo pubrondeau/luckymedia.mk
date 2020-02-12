@@ -37,33 +37,33 @@ return [
         'cards' => [
             '0' => [
                 'icon' => 'thunder',
-                'title' => 'Branding Consult',
-                'desc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-            ],
+                'title' => 'Branding Strategy',
+                'desc' => 'We help brands achieve digital transformation.'
+            ],            
             '1' => [
-                'icon' => 'bulb',
-                'title' => 'Creative Planning',
-                'desc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-            ],
-            '2' => [
                 'icon' => 'window',
                 'title' => 'Web Development',
-                'desc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                'desc' => 'Dedicated to innovative, user-oriented web development.'
             ],
-            '3' => [
+            '2' => [
                 'icon' => 'frame',
                 'title' => 'Design Services',
-                'desc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                'desc' => 'Original designs that convert visitors into clients.'
+            ],
+            '3' => [
+                'icon' => 'bulb',
+                'title' => 'Creative Ideas',
+                'desc' => 'We combine creativity with deep technical experience.'
             ],
             '4' => [
                 'icon' => 'chat',
                 'title' => 'Social Media',
-                'desc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                'desc' => 'We build attractive digital marketing campaigns.'
             ],
             '5' => [
-                'icon' => 'database',
-                'title' => 'Hosting Solutions',
-                'desc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                'icon' => 'network',
+                'title' => 'Outsourcing solutions',
+                'desc' => 'We provide professional staff and proven experience.'
             ],
         ],
     ],
