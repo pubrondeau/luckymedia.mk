@@ -4,8 +4,9 @@
         <div class="row flex flex-col">
             <div class="col-12">
                 <p class="font-medium text-lg text-black mb-16">
-                    Str. JNA 190, Gostivar, <br>
-                    N. Macedonia
+                    Str. Borce Jovanoski nr.32,<br>
+                    Gostivar 1230, <br>
+                    North Macedonia
                 </p>
                 <p class="font-medium text-lg text-black mb-16">
                     +389 70 50 20 60 <br>
@@ -14,8 +15,8 @@
                 <div class="flex flex-col md:flex-row md:justify-between mb-12">
                     <p class="text-sm md:text-lg font-medium text-black order-2 md:order-none">© 2020 Lucky Media — All Rights Reserved</p>
                     <div class="flex flex-row mb-5 md:mb-0">
-                        <a href="https://www.facebook.com" class="text-lg text-black mr-10">Facebook</a>
-                        <a href="https://www.facebook.com" class="text-lg text-black">Instagram</a>
+                        <a href="https://www.facebook.com/LuckyMediaInc/" class="text-lg text-black mr-10">Facebook</a>
+                        <a href="https://www.instagram.com/luckymedia.mk/" class="text-lg text-black">Instagram</a>
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@
                             <div class="bg-blue-500 w-5 mt-2" style="height: 2px;"></div>
                         </div>
                         <p class="mt-6 leading-loose font-medium text-sm text-gray-300">
-                            Rr. JNA 190, Gostivar 1230 <br>
+                            Str. Borce Jovanoski nr.32, Gostivar 1230 <br>
                             Republic of North Macedonia <br>
                             +389 70 50 20 60 <br>
                             info@luckymedia.mk <br>

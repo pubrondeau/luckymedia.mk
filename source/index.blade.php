@@ -41,18 +41,23 @@
             <div class="row mt-12 mb-56">
                 <div class="lg:col-5 mb-5 lg:mb-0">
                     <h2 class="text-4xl text-left text-white font-bold">
-                        We are a super awesome creative agency.
+                        The art of beautiful design and professional digital experience.
                     </h2>
                 </div>
                 <div class="lg:col-6 lg:offset-1">
                     <p class="font-medium text-white text-justify">
-                        We help company set up business strategy including design brand identiy or product design
-                        service. So company can focus on their core business. A wonderful serenity has taken possession
-                        of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am
-                        alone, and feel the charm.
+                        We can help you out with all your online digital strategis and business needs. Starting from your company website,
+                        custom development solutions, corporate identity, social media marketing and more. We can be the
+                        invisible hand that pushes your company forward and ahead of your competitors. Online presence
+                        is very important in the current business ecosystem and the always changing technologies.
+                        While you worry about your core business, enhancing your products and services, we make sure that you have
+                        the best practices and most advanced technological setup. 
                         <br> <br>
-                        I should be incapable of drawing a single stroke at the present moment; and yet I feel that I
-                        never was a greater artist than now. When, while the lovely valley teems with vapour around me
+                        We can design a unique website for your company that will reflect elegance, professionalism, trust and efficiency.
+                        Our designers can provide you a complete corporate identity for your entire marketing needs, refreshing
+                        your influence and attracting possible clients. The presence on social media networks is not just having company
+                        profiles that have a few posts now and then. Our marketing team can utilize the best state-of-the-art
+                        techniques for increasing your social media presence.
                     </p>
                 </div>
             </div>
