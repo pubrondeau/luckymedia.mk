@@ -6762,6 +6762,10 @@ video {
   background: linear-gradient(312.56deg, #F6F6F6 0.66%, rgba(246, 246, 246, 0) 56.08%);
 }
 
+.bg-skew-180 {
+  background: linear-gradient(135deg, #F6F6F6 -0.97%, rgba(246, 246, 246, 0) 58.58%);
+}
+
 .dots {
   z-index: 1;
 }
@@ -6778,7 +6782,7 @@ video {
 @media (min-width: 1024px) {
   .dots::before {
     width: 600px;
-    height: 350px;
+    height: 450px;
     top: 40%;
     left: 30%;
   }

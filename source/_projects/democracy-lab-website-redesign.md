@@ -9,6 +9,8 @@ tags: [branding, web, design]
 category: work
 cover: >-
   /assets/images/uploads/demlab.png
+cover_lg: >-
+  /assets/images/uploads/demlab@2x.png
 images:
   - >-
     https://images.unsplash.com/photo-1578021046026-483fa99ffad2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
