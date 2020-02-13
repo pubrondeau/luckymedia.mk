@@ -9,7 +9,7 @@ return [
         'menu' => [
             0 => [
                 'name' => 'Home',
-                'link' => '/'
+                'link' => '/',
             ],
             1 => [
                 'name' => 'About us',
@@ -23,16 +23,16 @@ return [
             ],
             3 => [
                 'name' => 'Portfolio',
-                'link' => '/portfolio'
+                'link' => '/portfolio',
             ],
             4 => [
                 'name' => 'Blog',
-                'link' => '/blog'
+                'link' => '/blog',
             ],
             5 => [
                 'name' => 'Contact',
-                'link' => '/contact'
-            ]
+                'link' => '/contact',
+            ],
         ],
         'cards' => [
             '0' => [
@@ -72,37 +72,37 @@ return [
             'name' => 'Php',
             'img' => 'assets/images/logos/php.png',
             'img_large' => 'assets/images/logos/php@2x.png',
-            'link' => 'https://www.php.net/'
+            'link' => 'https://www.php.net/',
         ],
         '1' => [
             'name' => 'Laravel',
             'img' => 'assets/images/logos/laravel.png',
             'img_large' => 'assets/images/logos/laravel@2x.png',
-            'link' => 'https://www.laravel.com/'
+            'link' => 'https://www.laravel.com/',
         ],
         '2' => [
             'name' => 'Tailwind',
             'img' => 'assets/images/logos/tailwind.png',
             'img_large' => 'assets/images/logos/tailwind@2x.png',
-            'link' => 'https://tailwindcss.com/'
+            'link' => 'https://tailwindcss.com/',
         ],
         '3' => [
             'name' => 'Javascript',
             'img' => 'assets/images/logos/js.png',
             'img_large' => 'assets/images/logos/js@2x.png',
-            'link' => '/'
+            'link' => '/',
         ],
         '4' => [
             'name' => 'VueJS',
             'img' => 'assets/images/logos/vue.png',
             'img_large' => 'assets/images/logos/vue@2x.png',
-            'link' => 'https://vuejs.org/'
+            'link' => 'https://vuejs.org/',
         ],
         '5' => [
             'name' => 'ReactJS',
             'img' => 'assets/images/logos/react.png',
             'img_large' => 'assets/images/logos/react@2x.png',
-            'link' => 'https://reactjs.org/'
+            'link' => 'https://reactjs.org/',
         ],
     ],
     'collections' => [
@@ -112,12 +112,23 @@ return [
             'sort' => '-date',
         ],
         'testimonials' => [
-            'sort' => '-date'
-        ]
+            'sort' => '-date',
+        ],
     ],
 
-    'getDescription' => function($page)
-    {
+    'getDescription' => function ($page) {
         return strip_tags($page->getContent());
-    }
+    },
+
+    'getShortDescription' => function ($page) {
+
+        $string = strip_tags($page->getContent());
+
+        $stringCut = substr($string, 0, 120);
+
+        $string = substr($stringCut, 0, strrpos($stringCut, ' ')) . '....';
+
+        return $string;
+
+    },
 ];

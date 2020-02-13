@@ -7,11 +7,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="{{ $page->siteDescription }}">
 
-    <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ $page->getUrl() }}" />
-    <meta property="og:description" content="{{ $page->siteDescription }}" />
-    <meta property="og:image" content="{{ $page->cover ? $page->cover : '/assets/images/lucky-meta.png' }}" />
+    <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ $page->getUrl() }}"/>
+    <meta property="og:description" content="{{ $page->siteDescription }}"/>
+    <meta property="og:image" content="{{ $page->cover ? $page->cover : '/assets/images/lucky-meta.png' }}"/>
 
     @stack('meta')
 
@@ -28,8 +28,10 @@
     <link rel="icon" href="/assets/images/favicons/fav-228.ico" sizes="228x228">
 
     {{-- Links Android --}}
-    <link rel="shortcut icon" sizes="196x196" href=“/assets/images/favicons/fav-196.ico"> {{-- Links Apple --}} <link
-        rel="apple-touch-icon" href="/assets/images/favicons/fav-120.ico" sizes="120x120">
+    <link rel="shortcut icon" sizes="196x196" href=“/assets/images/favicons/fav-196.ico">
+
+    {{-- Links Apple --}}
+    <link rel="apple-touch-icon" href="/assets/images/favicons/fav-120.ico" sizes="120x120">
     <link rel="apple-touch-icon" href="/assets/images/favicons/fav-152.ico" sizes="152x152">
     <link rel="apple-touch-icon" href="/assets/images/favicons/fav-180.ico" sizes="180x180">
 
@@ -44,59 +46,59 @@
 </head>
 
 <body class="antialiased font-sans">
-    <div id="app">
+<div id="app">
 
-        <div style="z-index: 9999;" class="bg-white absolute sticky w-full top-0">
-            <div class="container">
-                <div class="row items-center justify-between py-5">
-                    <div class="col-4">
-                        <a href="/">
-                            @include('_components.icon', ['name' => 'luckymedia', 'class' => 'text-black h-12'])
-                        </a>
-                    </div>
+    <div style="z-index: 9999;" class="bg-white absolute sticky w-full top-0">
+        <div class="container">
+            <div class="row items-center justify-between py-5">
+                <div class="col-4">
+                    <a href="/">
+                        @include('_components.icon', ['name' => 'luckymedia', 'class' => 'text-black h-12'])
+                    </a>
+                </div>
 
-                    <nav class="hidden col-6 lg:flex flex-row justify-end">
-                        <ul class="flex flex-row">
-                            @foreach($page->homepage->menu as $menu)
+                <nav class="hidden col-6 lg:flex flex-row justify-end">
+                    <ul class="flex flex-row">
+                        @foreach($page->homepage->menu as $menu)
                             <li class="mr-4 xl:mr-8 last:mr-0 py-2 menu-item">
                                 <a href="{{ $menu->link }}">{{ $menu->name }}</a>
                             </li>
-                            @endforeach
-                        </ul>
-                    </nav>
+                        @endforeach
+                    </ul>
+                </nav>
 
-                    <div class="menu-wrap lg:hidden">
-                        <input id="burger" type="checkbox" />
-                        <label for="burger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </label>
+                <div class="menu-wrap lg:hidden">
+                    <input id="burger" type="checkbox"/>
+                    <label for="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
 
-                        <nav>
-                            <ul class="mt-16 px-12 lg:mt-0">
-                                @foreach($page->homepage->menu as $menu)
+                    <nav>
+                        <ul class="mt-16 px-12 lg:mt-0">
+                            @foreach($page->homepage->menu as $menu)
                                 <li>
                                     <a href="{{ $menu->link }}">{{ $menu->name }}</a>
                                 </li>
-                                @endforeach
-                            </ul>
+                            @endforeach
+                        </ul>
 
-                        </nav>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
-
-
-        @yield('body')
     </div>
 
-    <footer>
-        @include('_partials.footer.project')
-        @include('_partials.footer.copyright')
-    </footer>
-    @include('_partials.cms.identity_redirect')
+
+    @yield('body')
+</div>
+
+<footer>
+    @include('_partials.footer.project')
+    @include('_partials.footer.copyright')
+</footer>
+@include('_partials.cms.identity_redirect')
 </body>
 
 </html>
