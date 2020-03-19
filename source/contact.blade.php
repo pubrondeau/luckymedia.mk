@@ -19,10 +19,11 @@
                             <div class="bg-blue-500 w-5 mt-2" style="height: 2px;"></div>
                         </div>
                         <p class="mt-6 leading-loose font-medium text-sm text-gray-300">
-                            Str. Borce Jovanoski nr.32, Gostivar 1230 <br>
-                            Republic of North Macedonia <br>
+                            Borce Jovanoski nr.32,<br>
+                            Gostivar 1230 <br>
+                            North Macedonia <br><br>
                             +389 70 50 20 60 <br>
-                            info@luckymedia.mk <br>
+                            info@luckymedia.mk
                         </p>
                     </div>
                     <div class="md:w-1/2 flex flex-col">

@@ -4,7 +4,7 @@
         <div class="row flex flex-col">
             <div class="col-12">
                 <p class="font-medium text-lg text-black mb-16">
-                    Str. Borce Jovanoski nr.32,<br>
+                    Borce Jovanoski nr.32,<br>
                     Gostivar 1230, <br>
                     North Macedonia
                 </p>
