@@ -17,5 +17,4 @@ images:
  - '/assets/images/uploads/demlab_3.jpg'
 ---
 
-DemLab aims to strengthen democratic values in the Balkans. The website simplifies a rather complex task. We provided
-a professional design that emphasizes their core values and brings attention to their goals.
+DemLab aims to strengthen democratic values in the Balkans. The website design simplifies a rather complex and content heavy website. We provided a professional design that emphasizes their core values and brings attention to their goals.
