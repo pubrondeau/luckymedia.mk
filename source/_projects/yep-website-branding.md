@@ -18,4 +18,4 @@ images:
 section: content
 ---
 
-We designed and developed an entirely new version that attracts the younger generations and makes them feel comfortable with the user experience.
+We designed and developed an entirely new version that attracts the younger generations and makes them feel comfortable with the user experience. YEP is a youth NGO that focuses on intellectual development of the youth. They implement many projects and the website is constatly filled with new contents. They have high website traffic and receive many emails through the contact form, but never experience difficulties on the website.
