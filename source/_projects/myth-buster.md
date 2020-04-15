@@ -17,5 +17,4 @@ images:
  - '/assets/images/uploads/mythbuster_3.jpg'
 ---
 
-DemLab aims to strengthen democratic values in the Balkans. The website simplifies a rather complex task. We provided
-a professional design that emphasizes their core values and brings attention to their goals.
+This platform is specifically design to replace myth with facts. The platform allows multiple users to login and make changes according to their user roles and permissions. All posts are written in two languages and switching languages is done in an instance. The website itself uses technological combinations that make it fast and reliable.
