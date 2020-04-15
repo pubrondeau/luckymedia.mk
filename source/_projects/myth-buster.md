@@ -17,4 +17,4 @@ images:
  - '/assets/images/uploads/mythbuster_3.jpg'
 ---
 
-This platform is specifically design to replace myth with facts. The platform allows multiple users to login and make changes according to their user roles and permissions. All posts are written in two languages and switching languages is done in an instance. The website itself uses technological combinations that make it fast and reliable.
+This platform is specifically designed to replace myth with facts. The platform allows multiple users to login and make changes according to their user roles and permissions. All posts are written in two languages and switching languages is done in an instance. The website itself uses technological combinations that make it fast and reliable.
