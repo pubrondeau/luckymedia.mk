@@ -1,7 +1,7 @@
 ---
 pagination:
     collection: projects
-    perPage: 5
+    perPage: 3
 ---
 
 @extends('_layouts.master')
@@ -27,30 +27,30 @@ pagination:
             @endif
         @endforeach
 
-        @if(count($pagination->items) > 6)
-            <div class="row mt-32">
-                <div class="col-12 flex justify-center">
-                    <div class="flex flex-row">
-                        @if ($previous = $pagination->previous)
-                            <a class="link mr-4" href="{{ $page->baseUrl }}{{ $pagination->first }}">&lt;&lt;</a>
-                            <a class="link mr-4" href="{{ $page->baseUrl }}{{ $previous }}">&lt;</a>
-                        @endif
 
-                        @foreach ($pagination->pages as $pageNumber => $path)
-                            <a href="{{ $page->baseUrl }}{{ $path }}"
-                               class="{{ $pagination->currentPage == $pageNumber ? 'border-blue-500 bg-blue-500 text-white' : '' }} border-gray-300 border-2 text-gray-300 px-4 py-2 mr-4 rounded hover:bg-blue-500 hover:border-blue-500 hover:text-white">
-                                {{ $pageNumber }}
-                            </a>
-                        @endforeach
+        <div class="row mt-32">
+            <div class="col-12 flex justify-center">
+                <div class="flex flex-row">
+                    @if ($previous = $pagination->previous)
+                        <a class="link mr-4" href="{{ $page->baseUrl }}{{ $pagination->first }}">&lt;&lt;</a>
+                        <a class="link mr-4" href="{{ $page->baseUrl }}{{ $previous }}">&lt;</a>
+                    @endif
 
-                        @if ($next = $pagination->next)
-                            <a class="link mr-4" href="{{ $page->baseUrl }}{{ $next }}">&gt;</a>
-                            <a class="link mr-4" href="{{ $page->baseUrl }}{{ $pagination->last }}">&gt;&gt;</a>
-                        @endif
-                    </div>
+                    @foreach ($pagination->pages as $pageNumber => $path)
+                        <a href="{{ $page->baseUrl }}{{ $path }}"
+                           class="{{ $pagination->currentPage == $pageNumber ? 'border-blue-500 bg-blue-500 text-white' : '' }} border-gray-300 border-2 text-gray-300 px-4 py-2 mr-4 rounded hover:bg-blue-500 hover:border-blue-500 hover:text-white">
+                            {{ $pageNumber }}
+                        </a>
+                    @endforeach
+
+                    @if ($next = $pagination->next)
+                        <a class="link mr-4" href="{{ $page->baseUrl }}{{ $next }}">&gt;</a>
+                        <a class="link mr-4" href="{{ $page->baseUrl }}{{ $pagination->last }}">&gt;&gt;</a>
+                    @endif
                 </div>
             </div>
-        @endif
+        </div>
+
 
     </div>
 

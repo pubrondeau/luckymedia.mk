@@ -60,7 +60,7 @@
                 <nav class="hidden col-6 lg:flex flex-row justify-end">
                     <ul class="flex flex-row">
                         @foreach($page->homepage->menu as $menu)
-                            <li class="mr-4 xl:mr-8 last:mr-0 py-2 menu-item">
+                            <li class="mr-4 xl:mr-8 last:mr-0 py-2 transition-all ease-in duration-100 menu-item">
                                 <a href="{{ $menu->link }}">{{ $menu->name }}</a>
                             </li>
                         @endforeach

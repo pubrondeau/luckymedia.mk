@@ -8,12 +8,13 @@ link: https://www.yep.mk/
 category: work
 date: 2019-12-06
 cover: >-
-  /assets/images/uploads/yep.png
+  /assets/images/uploads/yep_cover.png
 cover_lg: >-
-  /assets/images/uploads/yep@2x.png
+  /assets/images/uploads/yep_cover@2x.png
 images:
- - '/assets/images/uploads/yep@2x.png'
- - '/assets/images/uploads/yep@2x.png'
+ - '/assets/images/uploads/yep_1.jpg'
+ - '/assets/images/uploads/yep_2.jpg'
+ - '/assets/images/uploads/yep_3.jpg'
 section: content
 ---
 

@@ -1,9 +1,9 @@
 ---
 author: Ali Karbassi
-link: 'www.weallcode.org'
+link: 'https://www.weallcode.org'
 position: CEO @ We All Code
-img: 'https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg'
+img: assets/images/uploads/ali-karbassi.jpg
 section: content
 ---
 
-These guys are legit. I’ll never hire another agency as long as I’m working. They are also extremely helpful and amazing.
+I worked closely with Lokman at our Nonprofit in Chicago (USA) and couldn't have been happier. His attention to detail was a breath of fresh air.

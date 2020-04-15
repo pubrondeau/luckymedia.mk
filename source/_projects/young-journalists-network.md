@@ -1,20 +1,20 @@
 ---
-title: Website Redesign
+title: Young Journalist's Network
 client: Democracy Lab
 services: Website Design, Development, CMS
 technologies: [VueJS, Nuxt, Tailwind]
-link: 'https://www.demlab.org/'
-date: 2019-08-10
+link: 'https://www.yjn.demlab.org/'
+date: 2020-01-12
 tags: [branding, web, design, development]
 category: work
 cover: >-
-  /assets/images/uploads/demlab_cover.png
+  /assets/images/uploads/yjn_cover.png
 cover_lg: >-
-  /assets/images/uploads/demlab_cover@2x.png
+  /assets/images/uploads/yjn_cover@2x.png
 images:
- - '/assets/images/uploads/demlab_1.jpg'
- - '/assets/images/uploads/demlab_2.jpg'
- - '/assets/images/uploads/demlab_3.jpg'
+ - '/assets/images/uploads/yjn_1.jpg'
+ - '/assets/images/uploads/yjn_2.jpg'
+ - '/assets/images/uploads/yjn_3.jpg'
 ---
 
 DemLab aims to strengthen democratic values in the Balkans. The website simplifies a rather complex task. We provided

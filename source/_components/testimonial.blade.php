@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-col ml-5">
             <h5 class="text-blue-500 font-bold uppercase">{{ $author }}</h5>
-            <p class="font-medium text-gray-200 uppercase text-xs">{{ $position }}</p>
+            <a target="_blank" href="{{ $link }}" class="font-medium text-gray-200 uppercase text-xs pb-1 border-b-2 border-transparent hover:border-blue-500 hover:text-blue-500">{{ $position }}</a>
         </div>
     </div>
 </div>

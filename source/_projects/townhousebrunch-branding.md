@@ -8,12 +8,13 @@ link: https://www.townhousebrunch.com/
 category: work
 date: 2019-05-06
 cover: >-
-  /assets/images/uploads/townhouse.png
+  /assets/images/uploads/townhouse_cover.png
 cover_lg: >-
-  /assets/images/uploads/townhouse@2x.png
+  /assets/images/uploads/townhouse_cover@2x.png
 images:
- - '/assets/images/uploads/townhouse@2x.png'
- - '/assets/images/uploads/townhouse@2x.png'
+ - '/assets/images/uploads/townhouse_1.jpg'
+ - '/assets/images/uploads/townhouse_2.jpg'
+ - '/assets/images/uploads/townhouse_3.jpg'
 section: content
 ---
 

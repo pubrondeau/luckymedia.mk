@@ -1,7 +1,8 @@
 <div class="row items-center mt-20 lg:mt-5">
     <div class="mt-8 lg:mt-0 lg:col-6 lg:-mr-8">
         <div class="flex flex-col justify-center items-start text-gray-200 lg:px-16 max-w-2xl ml-auto">
-            <h4 class="text-3xl font-bold text-gray-500">{{ $project->client }}</h4>
+            <p class="text-blue-500 uppercase font-bold mb-2 text-sm tracking-widest">{{ $project->client }}</p>
+            <h4 class="text-3xl font-bold text-gray-500">{{ $project->title }}</h4>
             <p class="font-medium mt-3">{{ $project->getShortDescription() }}</p>
             <ul class="flex flex-col w-full mt-8 mb-10">
                 <li class="flex flex-row items-center py-4 px-1 lg:px-4 border-b border-gray-100">

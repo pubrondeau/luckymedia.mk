@@ -38,17 +38,21 @@
 }
 
 .menu-item {
-  @apply relative;
+  @apply relative transition-all duration-100 ease-in;
+
+  &:before {
+    @apply bg-transparent absolute transition duration-200 ease-in;
+    content: '';
+    width: 20px;
+    height: 3px;
+    margin-top: 30px;
+  }
 
   &:hover {
-    &::before {
-      content: '';
-      position: absolute;
-      width: 20px;
-      height: 3px;
-      margin-top: 30px;
-      background-color: #2653E3;
-      transition: all 0.25s ease-in;
+    @apply text-blue-500;
+
+    &:before {
+      @apply bg-blue-500;
     }
   }
 }
@@ -74,7 +78,7 @@
 }
 
 .testimonial {
-  @apply font-medium text-gray-200 text-justify;
+  @apply font-medium text-gray-200;
 }
 
 .link {

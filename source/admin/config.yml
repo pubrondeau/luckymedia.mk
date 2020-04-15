@@ -9,6 +9,8 @@ public_folder: "assets/images/uploads"
 collections:
   - name: "projects"
     label: "Projects"
+    editor:
+      preview: false
     label_singular: "Project"
     folder: "source/_projects"
     create: true
@@ -48,6 +50,8 @@ collections:
   - name: "testimonials"
     label: "Testimonials"
     label_singular: "Testimonial"
+    editor:
+      preview: false
     folder: "source/_testimonials"
     create: true
     identifier_field: "author"

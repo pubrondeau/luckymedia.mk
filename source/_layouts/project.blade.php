@@ -12,17 +12,15 @@
 
     @include('_components.heading-image', ['title' => $page->title, 'client' => $page->client])
 
-    <div class="container mt-16 lg:mt-24">
+    <div class="container my-16 lg:my-24">
         <div class="row">
             <div class="lg:col-8">
-                @foreach($page->images as $image)
-                    <img class="w-full h-auto mb-16 lg:mb-24" src="{{ $image }}" alt="">
-                @endforeach
+                <img class="w-full h-auto mb-5" src="{{ $page->cover }}" alt="">
             </div>
-            <div class="lg:col-4 mb-24 lg:mb-0">
+            <div class="lg:col-4 mb-16 lg:mb-0">
                 <div class="flex flex-col">
                     <h4 class="text-xl lg:text-2xl font-bold">Description</h4>
-                    <div class="mt-3 font-medium text-gray-200 text-justify">
+                    <div class="mt-3 font-medium text-gray-200">
                         {{ $page->getDescription() }}
                     </div>
                 </div>
@@ -53,12 +51,17 @@
 
                 <div class="mt-5 flex flex-col">
                     <h4 class="text-xl lg:text-2xl font-bold">Tags</h4>
-                    <div class="mt-3 flex flex-row">
+                    <div class="mt-3 flex flex-row flex-wrap">
                         @foreach($page->tags as $tags)
-                            <div class="bg-blue-400 px-2 py-1 text-blue-500 uppercase rounded mr-2 last:mr-0">{{ $tags }}</div>
+                            <div class="bg-blue-400 px-2 py-1 text-blue-500 uppercase rounded mr-2 last:mr-0 mb-2">{{ $tags }}</div>
                         @endforeach
                     </div>
                 </div>
+            </div>
+            <div class="lg:col-8">
+                @foreach($page->images as $image)
+                    <img class="w-full h-auto" src="{{ $image }}" alt="">
+                @endforeach
             </div>
         </div>
     </div>

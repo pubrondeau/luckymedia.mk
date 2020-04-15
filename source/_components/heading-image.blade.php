@@ -10,7 +10,7 @@
                 </svg>
                 <div class="flex flex-col ml-8 md:ml-12">
                     @if(isset($client))
-                        <p class="text-blue-500 uppercase -mb-1 text-sm md:text-base">{{ $client }}</p>
+                        <p class="text-blue-500 uppercase -mb-1 text-sm md:text-base font-bold tracking-widest">{{ $client }}</p>
                     @endif
                     <h2 class="text-2xl md:text-5xl font-bold text-gray-500">{{ $title }}</h2>
                 </div>
