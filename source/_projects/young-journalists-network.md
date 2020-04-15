@@ -3,7 +3,7 @@ title: Young Journalist's Network
 client: Democracy Lab
 services: Website Design, Development, CMS
 technologies: [VueJS, Nuxt, Tailwind]
-link: 'https://www.yjn.demlab.org/'
+link: 'https://yjn.demlab.org/'
 date: 2020-01-12
 tags: [branding, web, design, development]
 category: work
@@ -17,5 +17,4 @@ images:
  - '/assets/images/uploads/yjn_3.jpg'
 ---
 
-DemLab aims to strengthen democratic values in the Balkans. The website simplifies a rather complex task. We provided
-a professional design that emphasizes their core values and brings attention to their goals.
+YJN will build the capacities of young journalists in news gathering and reporting through a year-long series of professional trainings and internship opportunities. This platform allows multiple users with different roles and permissions. It has a slick participants page that presents all the journalists portfolios. The platform is designed to handle high volumes of traffic with impressive performance.
