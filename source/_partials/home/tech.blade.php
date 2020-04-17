@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="lg:col-2">
-                @include('_components.heading-sm', ['color' => 'black', 'title' => 'Technologies'])
+                <x-heading-sm color="black" title="Technologies"></x-heading-sm>
             </div>
         </div>
         <div class="row items-center flex-col lg:flex-row lg:flex-wrap mt-20 lg:mt-24">

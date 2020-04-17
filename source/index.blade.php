@@ -35,7 +35,7 @@
             </div>
             <div class="row mt-24">
                 <div class="lg:col-2">
-                    @include('_components.heading-sm', ['color' => 'white', 'title' => 'About Us'])
+                    <x-heading-sm color="white" title="About Us"></x-heading-sm>
                 </div>
             </div>
             <div class="row mt-12 mb-56">

@@ -9397,6 +9397,18 @@ video {
   color: #fff;
 }
 
+.zoom__img {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.zoom__img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 .bg-skew {
   background: linear-gradient(312.56deg, #F6F6F6 0.66%, rgba(246, 246, 246, 0) 56.08%);
 }
@@ -9502,24 +9514,28 @@ video {
 }
 
 .link {
-  border-color: #6B6B6B;
-  border-width: 2px;
-  color: #6B6B6B;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-radius: 0.25rem;
+  border-radius: 9999px;
+  background-color: #E6E6E6;
+  font-size: 0.875rem;
+  color: #333333;
+  width: 3rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin-right: 1rem;
 }
 
 .link:hover {
   background-color: #2653E3;
-  border-color: #2653E3;
   color: #fff;
 }
 
 .link-active {
-  border-color: #2653E3;
+  background-color: #2653E3;
   color: #fff;
 }
 

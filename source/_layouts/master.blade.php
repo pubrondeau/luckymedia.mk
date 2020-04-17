@@ -53,7 +53,7 @@
             <div class="row items-center justify-between py-5">
                 <div class="col-4">
                     <a href="/">
-                        @include('_components.icon', ['name' => 'luckymedia', 'class' => 'text-black h-12'])
+                        <x-icon name="luckymedia" class="text-black h-12"></x-icon>
                     </a>
                 </div>
 

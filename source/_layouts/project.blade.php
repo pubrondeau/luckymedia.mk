@@ -10,7 +10,7 @@
 
 @section('body')
 
-    @include('_components.heading-image', ['title' => $page->title, 'client' => $page->client])
+    <x-heading-image :title="$page->title" :client="$page->client"></x-heading-image>
 
     <div class="container my-16 lg:my-24">
         <div class="row">
