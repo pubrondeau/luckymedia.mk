@@ -111,6 +111,11 @@ return [
             'extends' => '_layouts.project',
             'sort' => '-date',
         ],
+        'posts' => [
+            'path' => 'blog/{filename}',
+            'extends' => '_layouts.post',
+            'sort' => '-date',
+        ],
         'testimonials' => [
             'sort' => '-date',
         ],

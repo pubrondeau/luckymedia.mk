@@ -15,7 +15,7 @@
     <div class="container my-16 lg:my-24">
         <div class="row">
             <div class="lg:col-8">
-                <img class="w-full h-auto mb-5" src="{{ $page->cover }}" alt="">
+                <img class="w-full h-auto mb-5" src="{{ $page->cover }}" srcset="{{ $page->cover_lg }}" alt="">
             </div>
             <div class="lg:col-4 mb-16 lg:mb-0">
                 <div class="flex flex-col">
