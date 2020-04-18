@@ -1,7 +1,8 @@
 ---
 title: Why do we use Github?
+tags: ['Github', 'Git', 'Version Control']
 date: 2020-04-18T15:32:21.292Z
-cover: assets/images/uploads/what-is-github-1-1.png
+cover: /assets/images/uploads/what-is-github-1-1.png
 ---
 GitHub provides hosting for software development version control using Git. In 2018 the company was acquired from Microsoft. Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. While working with projects, you might find it very useful to have version control and track the changes you make to your files. This allows you to go back and forth at the various stages of your project. It helps you organize and have more control over your code. Github let’s you keep the code and all the history of the changes you made with git. It’s also very helpful to work with teams and organize tasks. By creating new branches you make sure that different features are tested and implemented without influencing the master code. Creating issues is beneficial for improving your code and keeping track of problems.
 

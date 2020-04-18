@@ -20,7 +20,11 @@ module.exports = {
       white: '#fff',
       transparent: 'transparent'
     },
-    extend: {}
+    extend: {
+      width: {
+        'md': '28rem'
+      }
+    }
   },
   variants: {
     margin: ['responsive', 'last'],

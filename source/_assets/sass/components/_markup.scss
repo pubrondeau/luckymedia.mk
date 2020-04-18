@@ -7,6 +7,7 @@
 }
 
 .markup {
+  @apply leading-loose;
   color: theme("colors.gray.500");
 }
 
@@ -52,7 +53,9 @@
 }
 
 .markup a {
-  @apply px-2 py-1 border-b-2 border-blue-500 text-gray-500 transition-all ease-in duration-200;
+  @apply px-2 border-b-2 font-bold border-blue-500 text-gray-500 transition-all ease-in duration-200;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
 
   &:hover {
     @apply bg-blue-500 text-white;

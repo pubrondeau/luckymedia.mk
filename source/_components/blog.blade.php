@@ -1,7 +1,7 @@
 <div class="col-12 md:col-6 lg:col-11 xl:col-10 flex flex-col lg:flex-row mb-10">
-    <a class="max-w-md zoom overflow-hidden relative" style="max-height: 300px;" href="{{ $post->getUrl() }}">
+    <a class="zoom overflow-hidden relative lg:w-md" style="height: 300px;" href="{{ $post->getUrl() }}">
         <img src="{{ $post->cover }}"
-             class="zoom__img w-full h-auto object-cover" alt="">
+             class="zoom__img w-full h-full object-cover" alt="">
     </a>
     <div class="bg-white p-8 flex-1 flex flex-col justify-between">
         <div class="flex flex-col">

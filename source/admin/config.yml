@@ -4,7 +4,7 @@ backend:
   squash_merges: true
 publish_mode: editorial_workflow
 media_folder: "source/assets/images/uploads"
-public_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
 
 collections:
   - name: "projects"
@@ -60,6 +60,7 @@ collections:
     format: "yaml-frontmatter"
     fields:
       - {label: "Title", name: "title", required: true, widget: "string"}
+      - {label: "Tags", name: "tags", required: true, widget: "list"}
       - {label: "Author", name: "author", required: false, widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
       - label: "Cover Image"
