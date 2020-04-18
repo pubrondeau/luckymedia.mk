@@ -1,6 +1,6 @@
 @extends('_layouts.master')
 
-@push('testimonials')
+@push('scripts')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <!--[if (lt IE 9)]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script>
@@ -35,7 +35,7 @@
             </div>
             <div class="row mt-24">
                 <div class="lg:col-2">
-                    @include('_components.heading-sm', ['color' => 'white', 'title' => 'About Us'])
+                    <x-heading-sm color="white" title="About Us"></x-heading-sm>
                 </div>
             </div>
             <div class="row mt-12 mb-56">

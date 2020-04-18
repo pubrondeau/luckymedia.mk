@@ -47,6 +47,30 @@ collections:
             multiple: true
       - {label: "Body", name: "body", widget: "markdown"}
 
+  - name: "posts"
+    label: "Posts"
+    editor:
+      preview: false
+    label_singular: "Blog"
+    folder: "source/_posts"
+    create: true
+    identifier_field: ""
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - {label: "Title", name: "title", required: true, widget: "string"}
+      - {label: "Author", name: "author", required: false, widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - label: "Cover Image"
+        name: "cover"
+        widget: "image"
+        required: true
+        media_library:
+          config:
+            multiple: false
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "testimonials"
     label: "Testimonials"
     label_singular: "Testimonial"

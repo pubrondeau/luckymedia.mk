@@ -4,18 +4,18 @@
     <meta property="og:title" content="{{ $page->siteName }} | {{ $page->title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <meta property="og:description" content="{{ $page->getDescription() }}" />
+    <meta property="og:description" content="{{ $page->getSeoDesc() }}" />
     <meta property="og:image" content="{{ $page->cover }}" />
 @endpush
 
 @section('body')
 
-    @include('_components.heading-image', ['title' => $page->title, 'client' => $page->client])
+    <x-heading-image :title="$page->title" :client="$page->client"></x-heading-image>
 
     <div class="container my-16 lg:my-24">
         <div class="row">
             <div class="lg:col-8">
-                <img class="w-full h-auto mb-5" src="{{ $page->cover }}" alt="">
+                <img class="w-full h-auto mb-5" src="{{ $page->cover }}" srcset="{{ $page->cover_lg }}" alt="">
             </div>
             <div class="lg:col-4 mb-16 lg:mb-0">
                 <div class="flex flex-col">

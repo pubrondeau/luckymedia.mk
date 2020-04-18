@@ -1,0 +1,223 @@
+/******************************************************************************\
+ * Markup                                                                      *
+\******************************************************************************/
+
+@mixin headings {
+   @apply font-bold leading-tight mt-12;
+}
+
+.markup {
+  color: theme("colors.gray.500");
+}
+
+.markup > *:not(:last-child),
+.markup > details > summary {
+  margin-bottom: 1.5rem;
+}
+
+.h1,
+.markup h1 {
+  @include headings;
+  @apply text-5xl;
+}
+
+.h2,
+.markup h2 {
+  @include headings;
+  @apply text-4xl;
+}
+
+.h3,
+.markup h3 {
+  @include headings;
+  @apply text-3xl;
+}
+
+.h4,
+.markup h4 {
+  @include headings;
+  @apply text-2xl;
+}
+
+.h5,
+.markup h5 {
+  @include headings;
+  @apply text-xl;
+}
+
+.h6,
+.markup h6 {
+  @include headings;
+  @apply text-lg;
+}
+
+.markup a {
+  @apply px-2 py-1 border-b-2 border-blue-500 text-gray-500 transition-all ease-in duration-200;
+
+  &:hover {
+    @apply bg-blue-500 text-white;
+  }
+}
+
+.markup em {
+  @apply italic;
+}
+
+.markup em code {
+  @apply not-italic;
+}
+
+.markup strong {
+  @apply font-bold;
+}
+
+.markup ul {
+  @appy list-disc list-inside;
+}
+
+.markup ol {
+  @appy list-decimal list-inside;
+}
+
+.markup img {
+  @apply block;
+  min-width: calc(100% + 3rem);
+}
+
+.markup img.centered {
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markup img.bordered {
+  border: 1px solid theme("colors.gray.300");
+}
+
+
+.markup figcaption,
+.markup img + em,
+.markup pre + em {
+  display: block;
+  font-size: theme("fontSize.sm");
+  color: theme("colors.gray.500");
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.markup blockquote {
+  @apply p-6 bg-gray-100 border-l-4 border-blue-500;
+}
+
+.markup blockquote cite {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  font-size: theme("fontSize.xs");
+  color: theme("colors.gray.500");
+}
+
+.markup blockquote cite a {
+  color: inherit;
+}
+
+.markup > blockquote > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.markup img,
+.markup pre,
+.markup blockquote,
+.markup .cp_embed_wrapper,
+.markup .chroma .hl {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.markup .chroma .hl {
+  display: block;
+  position: relative;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: calc(100% + 3rem);
+}
+
+.markup .chroma .hl:before {
+  content: "";
+  height: 2em;
+  position: absolute;
+  left: 0;
+  width: 0.5rem;
+  background-color: theme("colors.blue.700");
+}
+
+.markup code {
+  font-family: "Fira Code", monospace;
+  padding: 1.5rem;
+  font-size: 0.85em;
+}
+
+.markup :not(pre) > code {
+  background-color: theme("colors.gray.100");
+  color: inherit;
+  padding: 0.25em;
+}
+
+.markup aside {
+  color: theme("colors.gray.600");
+  font-size: theme("fontSize.xs");
+  margin-top: 2rem;
+}
+
+.markup aside p + p {
+  margin-top: 1rem;
+}
+
+.markup .highlight pre {
+  display: block;
+  overflow-x: auto;
+  padding: 1.5rem;
+  background-color: theme("colors.gray.900");
+  color: theme("colors.gray.100");
+  line-height: theme("lineHeight.loose");
+}
+
+.markup iframe {
+  width: 100%;
+}
+
+.markup table {
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+
+.markup th {
+  font-size: theme("fontSize.sm");
+  padding-bottom: 0.25rem;
+  font-weight: normal;
+  color: theme("colors.gray.600");
+  border-bottom: 2px solid theme("colors.gray.300");
+}
+
+.markup td {
+  font-size: theme("fontSize.sm");
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid theme("colors.gray.300");
+}
+
+.markup-series {
+  color: theme("colors.gray.400");
+  font-size: theme("fontSize.xs");
+}
+
+.markup-series > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.markup-series :not(pre) > code {
+  background-color: theme("colors.gray.800");
+  color: inherit;
+}
+

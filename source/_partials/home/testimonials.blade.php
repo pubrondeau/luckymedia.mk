@@ -14,13 +14,7 @@
         <div class="testimonials">
             @foreach ($testimonials as $testimonial)
                 <div class="lg:col-4 mb-24 last:mb-0 lg:mb-0">
-                    @include('_components.testimonial', [
-                            'body' => $testimonial->getContent(),
-                            'author' => $testimonial->author,
-                            'position' => $testimonial->position,
-                            'link' => $testimonial->link,
-                            'img' => $testimonial->img,
-                            ])
+                    <x-testimonial :content="$testimonial->getContent()" :testimonial="$testimonial"></x-testimonial>
                 </div>
             @endforeach
         </div>

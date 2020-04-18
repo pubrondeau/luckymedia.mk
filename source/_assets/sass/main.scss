@@ -5,6 +5,21 @@
 @tailwind utilities;
 
 @import "components/menu";
+@import "components/markup";
+
+.zoom {
+  &__img {
+    transition: transform .5s ease;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}
+
+.overlay {
+
+}
 
 .bg-skew {
   background: linear-gradient(312.56deg, #F6F6F6 0.66%, rgba(246, 246, 246, 0) 56.08%);
@@ -82,14 +97,14 @@
 }
 
 .link {
-  @apply border-gray-300 border-2 text-gray-300 px-4 py-2 rounded;
+  @apply rounded-full bg-gray-100 text-sm text-gray-500 w-12 h-12 flex items-center justify-center mr-4;
 
   &:hover {
-    @apply bg-blue-500 border-blue-500 text-white;
+    @apply bg-blue-500 text-white;
   }
 
   &-active {
-    @apply border-blue-500 text-white;
+    @apply bg-blue-500 text-white;
   }
 }
 
