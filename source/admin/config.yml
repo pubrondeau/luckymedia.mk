@@ -60,7 +60,7 @@ collections:
     format: "yaml-frontmatter"
     fields:
       - {label: "Title", name: "title", required: true, widget: "string"}
-      - {label: "Tags", name: "tags", required: true, widget: "list"}
+      - {label: "Tags", name: "tags", required: true, widget: "list", allow_add: true}
       - {label: "Author", name: "author", required: false, widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
       - label: "Cover Image"
