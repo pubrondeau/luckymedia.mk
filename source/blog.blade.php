@@ -1,3 +1,9 @@
+---
+pagination:
+    collection: posts
+    perPage: 5
+---
+
 @extends('_layouts.master')
 
 @push('meta')
@@ -17,6 +23,11 @@
                 @foreach($posts as $post)
                     <x-blog :post="$post"></x-blog>
                 @endforeach
+            </div>
+            <div class="row mt-32">
+                <div class="col-12 flex justify-center">
+                    <x-pagination :pagination="$pagination"></x-pagination>
+                </div>
             </div>
         </div>
     </div>

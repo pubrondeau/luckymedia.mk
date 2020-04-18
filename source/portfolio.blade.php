@@ -15,7 +15,7 @@ pagination:
 
 @section('body')
 
-    <x-heading-image title="Our Work"></x-heading-image>
+    <x-heading-white title="Our Work"></x-heading-white>
 
     <div class="container-fluid mt-24 lg:mt-32 mb-48">
         @foreach($pagination->items as $project)

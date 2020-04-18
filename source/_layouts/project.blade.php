@@ -28,9 +28,7 @@
                 <div class="mt-5 flex flex-col">
                     <h4 class="text-xl lg:text-2xl font-bold">Technologies used</h4>
                     <div class="mt-3 flex flex-row">
-                        @foreach($page->technologies as $items)
-                            <p class="font-medium text-gray-200 mr-1">{{ $items }} {{ $loop->last ? ' ' : ',' }}</p>
-                        @endforeach
+                        <p class="font-medium text-gray-200 mr-1">{{ implode(', ', $page->technologies) }}</p>
                     </div>
                 </div>
 
