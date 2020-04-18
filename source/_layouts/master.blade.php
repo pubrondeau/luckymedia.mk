@@ -42,7 +42,7 @@
     {{--  Javascript  --}}
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
-    @stack('testimonials')
+    @stack('scripts')
 </head>
 
 <body class="antialiased font-sans">

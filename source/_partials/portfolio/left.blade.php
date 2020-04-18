@@ -1,6 +1,6 @@
 <div class="row items-center mt-20 lg:mt-5">
-    <div class="lg:col-6 bg-skew">
-        <img class="w-full h-auto object-cover" srcset="{{ $project->cover_lg }}" src="{{ $project->cover }}" alt="">
+    <div class="lg:col-6 bg-skew xl:max-w-5xl xl:ml-auto">
+        <img  class="w-full h-auto object-cover" srcset="{{ $project->cover_lg }}" src="{{ $project->cover }}" alt="">
     </div>
     <div class="mt-8 lg:mt-0 lg:col-6 lg:-ml-8">
         <div class="flex flex-col justify-center items-start text-gray-200 lg:px-16 max-w-2xl">

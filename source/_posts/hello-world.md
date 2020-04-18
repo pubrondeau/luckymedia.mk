@@ -1,11 +1,9 @@
 ---
 title: Hello World
 date: 2019-08-10
-tags: [tailwind, framework, work]
+tags: [Tailwind, Framework, Work]
 cover: >-
-  /assets/images/uploads/demlab_cover.png
-cover_lg: >-
-  /assets/images/uploads/demlab_cover@2x.png
+  /assets/images/triangle.png
 ---
 
 # h1 Heading
@@ -54,9 +52,7 @@ _This is italic text_
 ## Blockquotes
 
 
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
+> Here is a blockquote
 
 
 ## Lists
@@ -107,7 +103,7 @@ Sample text here...
 
 Syntax highlighting
 
-``` js
+```js
 var foo = function (bar) {
   return bar++;
 };

@@ -9397,6 +9397,252 @@ video {
   color: #fff;
 }
 
+/******************************************************************************\
+ * Markup                                                                      *
+\******************************************************************************/
+
+.markup {
+  color: #333333;
+}
+
+.markup > *:not(:last-child),
+.markup > details > summary {
+  margin-bottom: 1.5rem;
+}
+
+.h1,
+.markup h1 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.h2,
+.markup h2 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 3rem;
+  font-size: 2.25rem;
+}
+
+.h3,
+.markup h3 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 3rem;
+  font-size: 1.875rem;
+}
+
+.h4,
+.markup h4 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.h5,
+.markup h5 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+}
+
+.h6,
+.markup h6 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 3rem;
+  font-size: 1.125rem;
+}
+
+.markup a {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-bottom-width: 2px;
+  border-color: #2653E3;
+  color: #333333;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.markup a:hover {
+  background-color: #2653E3;
+  color: #fff;
+}
+
+.markup em {
+  font-style: italic;
+}
+
+.markup em code {
+  font-style: normal;
+}
+
+.markup strong {
+  font-weight: 700;
+}
+
+.markup ul {
+  @appy list-disc list-inside;
+}
+
+.markup ol {
+  @appy list-decimal list-inside;
+}
+
+.markup img {
+  display: block;
+  min-width: calc(100% + 3rem);
+}
+
+.markup img.centered {
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markup img.bordered {
+  border: 1px solid #6B6B6B;
+}
+
+.markup figcaption,
+.markup img + em,
+.markup pre + em {
+  display: block;
+  font-size: 0.875rem;
+  color: #333333;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.markup blockquote {
+  padding: 1.5rem;
+  background-color: #E6E6E6;
+  border-left-width: 4px;
+  border-color: #2653E3;
+}
+
+.markup blockquote cite {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  font-size: 0.75rem;
+  color: #333333;
+}
+
+.markup blockquote cite a {
+  color: inherit;
+}
+
+.markup > blockquote > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.markup img,
+.markup pre,
+.markup blockquote,
+.markup .cp_embed_wrapper,
+.markup .chroma .hl {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.markup .chroma .hl {
+  display: block;
+  position: relative;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: calc(100% + 3rem);
+}
+
+.markup .chroma .hl:before {
+  content: "";
+  height: 2em;
+  position: absolute;
+  left: 0;
+  width: 0.5rem;
+  background-color: ;
+}
+
+.markup code {
+  font-family: "Fira Code", monospace;
+  padding: 1.5rem;
+  font-size: 0.85em;
+}
+
+.markup :not(pre) > code {
+  background-color: #E6E6E6;
+  color: inherit;
+  padding: 0.25em;
+}
+
+.markup aside {
+  color: ;
+  font-size: 0.75rem;
+  margin-top: 2rem;
+}
+
+.markup aside p + p {
+  margin-top: 1rem;
+}
+
+.markup .highlight pre {
+  display: block;
+  overflow-x: auto;
+  padding: 1.5rem;
+  background-color: ;
+  color: #E6E6E6;
+  line-height: 2;
+}
+
+.markup iframe {
+  width: 100%;
+}
+
+.markup table {
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+
+.markup th {
+  font-size: 0.875rem;
+  padding-bottom: 0.25rem;
+  font-weight: normal;
+  color: ;
+  border-bottom: 2px solid #6B6B6B;
+}
+
+.markup td {
+  font-size: 0.875rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #6B6B6B;
+}
+
+.markup-series {
+  color: #4D4D4D;
+  font-size: 0.75rem;
+}
+
+.markup-series > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.markup-series :not(pre) > code {
+  background-color: ;
+  color: inherit;
+}
+
 .zoom__img {
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: -webkit-transform 0.5s ease;

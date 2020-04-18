@@ -23,7 +23,7 @@
             <a href="{{ $project->getUrl() }}" class="bg-blue-500 text-white px-8 py-2 uppercase">Read More</a>
         </div>
     </div>
-    <div class="order-first lg:order-none lg:col-6 bg-skew-180">
+    <div class="order-first lg:order-none lg:col-6 xl:max-w-5xl xl:mr-auto bg-skew-180">
         <img class="w-full h-auto object-cover" srcset="{{ $project->cover_lg }}" src="{{ $project->cover }}" alt="">
     </div>
 </div>

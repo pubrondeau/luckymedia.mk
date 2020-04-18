@@ -4,7 +4,7 @@
     <meta property="og:title" content="{{ $page->siteName }} | {{ $page->title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <meta property="og:description" content="{{ $page->getDescription() }}" />
+    <meta property="og:description" content="{{ $page->getSeoDesc() }}" />
     <meta property="og:image" content="{{ $page->cover }}" />
 @endpush
 

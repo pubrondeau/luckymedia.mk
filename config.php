@@ -125,11 +125,21 @@ return [
         return strip_tags($page->getContent());
     },
 
+    'getSeoDesc' => function($page) {
+        $string = strip_tags($page->getContent());
+
+        $stringCut = substr($string, 0, 160);
+
+        $string = substr($stringCut, 0, strrpos($stringCut, ' ')) . '....';
+
+        return $string;
+    },
+
     'getShortDescription' => function ($page) {
 
         $string = strip_tags($page->getContent());
 
-        $stringCut = substr($string, 0, 120);
+        $stringCut = substr($string, 0, 200);
 
         $string = substr($stringCut, 0, strrpos($stringCut, ' ')) . '....';
 

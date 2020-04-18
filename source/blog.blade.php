@@ -14,8 +14,8 @@
     <div class="bg-gray-50">
         <div class="container py-24">
             <div class="row justify-center">
-                @foreach(range(1, 4) as $blog)
-                    <x-blog></x-blog>
+                @foreach($posts as $post)
+                    <x-blog :post="$post"></x-blog>
                 @endforeach
             </div>
         </div>
