@@ -22,8 +22,6 @@
                             Borce Jovanoski nr.32,<br>
                             Gostivar 1230 <br>
                             North Macedonia <br><br>
-                            +389 70 50 20 60 <br>
-                            info@luckymedia.mk
                         </p>
                     </div>
                     <div class="md:w-1/2 flex flex-col">

@@ -45,8 +45,8 @@
                     </h2>
                 </div>
                 <div class="lg:col-6 lg:offset-1">
-                    <p class="font-medium text-white text-justify">
-                        We can help you out with all your online digital strategis and business needs. Starting from your company website,
+                    <p class="font-medium text-white text-left leading-relaxed">
+                        We can help you out with all your online digital strategies and business needs. Starting from your company website,
                         custom development solutions, corporate identity, social media marketing and more. We can be the
                         invisible hand that pushes your company forward and ahead of your competitors. Online presence
                         is very important in the current business ecosystem and the always changing technologies.

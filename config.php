@@ -4,7 +4,7 @@ return [
     'production' => false,
     'baseUrl' => '',
     'siteName' => 'Lucky Media',
-    'siteDescription' => 'Creative digital agency. Building the web of tomorrow.',
+    'siteDescription' => 'The art of beautiful design and professional digital experience.',
     'homepage' => [
         'menu' => [
             0 => [

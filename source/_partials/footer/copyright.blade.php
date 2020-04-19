@@ -3,14 +3,10 @@
     <div class="container lg:-mt-32 xl:-mt-40">
         <div class="row flex flex-col">
             <div class="col-12">
-                <p class="font-medium text-lg text-black mb-16">
+                <p class="font-medium text-lg text-black mb-32">
                     Borce Jovanoski nr.32,<br>
                     Gostivar 1230, <br>
                     North Macedonia
-                </p>
-                <p class="font-medium text-lg text-black mb-16">
-                    +389 70 50 20 60 <br>
-                    info@luckymedia.mk
                 </p>
                 <div class="flex flex-col md:flex-row md:justify-between mb-12">
                     <p class="text-sm md:text-lg font-medium text-black order-2 md:order-none">© 2020 Lucky Media — All Rights Reserved</p>

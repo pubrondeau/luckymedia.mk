@@ -44,6 +44,7 @@
 
     {{-- Google Tags  --}}
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    @if ($page->production)
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36311389-4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -52,7 +53,7 @@
 
         gtag('config', 'UA-36311389-4');
     </script>
-
+    @endif
 
     @stack('scripts')
 </head>
@@ -65,7 +66,7 @@
             <div class="row items-center justify-between py-5">
                 <div class="col-4">
                     <a href="/">
-                        <x-icon name="luckymedia" class="text-black h-12"></x-icon>
+                        <x-icon name="luckymedia" class="text-black h-10"></x-icon>
                     </a>
                 </div>
 
