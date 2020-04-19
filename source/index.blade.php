@@ -40,7 +40,7 @@
             </div>
             <div class="row mt-12 mb-56">
                 <div class="lg:col-5 mb-5 lg:mb-0">
-                    <h2 class="text-4xl text-left text-white font-bold">
+                    <h2 class="text-2xl md:text-4xl text-left text-white font-bold">
                         The art of beautiful design and professional digital experience.
                     </h2>
                 </div>

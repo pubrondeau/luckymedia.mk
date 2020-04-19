@@ -22,7 +22,7 @@
         <div class="row mt-10">
             <div class="flex flex-col justify-center items-center mx-auto">
                 <h2 class="text-3xl font-bold">{{ $project->client }}</h2>
-               <div class="flex flex-row mb-16">
+               <div class="flex flex-row flex-wrap justify-center mb-16">
                    @foreach($project->tags as $tags)
                        <div class="bg-blue-400 px-2 py-1 text-blue-500 uppercase rounded mt-4 mr-2 last:mr-0">{{ $tags }}</div>
                    @endforeach

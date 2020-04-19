@@ -11608,7 +11608,7 @@ video {
 
 .menu-wrap input ~ nav {
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -11624,7 +11624,6 @@ video {
 
 .menu-wrap input ~ nav > ul {
   width: 100%;
-  overflow-y: auto;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -11638,8 +11637,8 @@ video {
 .menu-wrap input ~ nav > ul > li {
   text-align: left;
   line-height: 1;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border-color: #2653E3;
   border-bottom-width: 3px;
   opacity: 0;
@@ -11666,7 +11665,7 @@ video {
 
 .menu-wrap input:checked ~ nav {
   background: rgba(0, 0, 0, 0.95);
-  height: 100%;
+  height: calc(var(--vh, 1vh) * 100);
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
@@ -11679,6 +11678,10 @@ video {
 
 .menu-wrap input:checked ~ nav label::before {
   color: #fff;
+}
+
+.menu-wrap input:checked ~ body {
+  overflow: hidden;
 }
 
 /******************************************************************************\

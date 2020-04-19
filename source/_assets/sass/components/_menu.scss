@@ -56,7 +56,7 @@
     }
 
     input~nav {
-        @apply overflow-hidden fixed top-0 left-0 w-full h-0;
+        @apply overflow-hidden absolute top-0 left-0 w-full h-0;
         background: transparent;
         z-index: 3;
         transition: .5s;
@@ -64,11 +64,11 @@
         overflow: hidden;
 
         >ul {
-            @apply w-full overflow-y-auto flex flex-col justify-end;
+            @apply w-full flex flex-col justify-end;
             top: 10%;
 
             >li {
-                @apply text-left leading-none py-8 border-blue-500;
+                @apply text-left leading-none py-6 border-blue-500;
                 border-bottom-width: 3px;
                 opacity: 0;
                 transition: .5s;
@@ -87,7 +87,7 @@
 
     input:checked~nav {
         background: rgba(0, 0, 0, 0.95);
-        height: 100%;
+        height: calc(var(--vh, 1vh) * 100);
         transition-delay: 0s;
 
         >ul {
@@ -100,6 +100,10 @@
         label::before {
             @apply text-white;
         }
+    }
+
+    input:checked~body {
+        @apply overflow-hidden;
     }
 
 }

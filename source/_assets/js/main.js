@@ -28,3 +28,19 @@ if (testimonials) {
         }
     });
 }
+
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+const burger = document.getElementById('burger');
+const body = document.querySelector('body');
+
+burger.addEventListener('change', (event) => {
+    if (event.target.checked) {
+        body.classList.add('overflow-hidden');
+    } else {
+        body.classList.remove('overflow-hidden');
+    }
+});
+
+

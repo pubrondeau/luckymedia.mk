@@ -89,7 +89,7 @@
                     </label>
 
                     <nav>
-                        <ul class="mt-16 px-12 lg:mt-0">
+                        <ul class="mt-12 px-12 lg:mt-0">
                             @foreach($page->homepage->menu as $menu)
                                 <li>
                                     <a href="{{ $menu->link }}">{{ $menu->name }}</a>
