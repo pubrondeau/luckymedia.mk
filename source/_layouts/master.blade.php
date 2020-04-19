@@ -13,6 +13,11 @@
     <meta property="og:description" content="{{ $page->siteDescription }}"/>
     <meta property="og:image" content="{{ $page->cover ? $page->cover : '/assets/images/lucky-meta.png' }}"/>
 
+    <meta name="twitter:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}">
+    <meta name="twitter:description" content="{{ $page->siteDescription }}">
+    <meta name="twitter:image" content="{{ $page->cover ? $page->cover : '/assets/images/lucky-meta.png' }}">
+    <meta name="twitter:card" content="summary_large_image">
+
     @stack('meta')
 
     <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>

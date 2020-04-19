@@ -13,6 +13,11 @@
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
     <meta property="og:description" content="{{ $page->getSeoDesc() }}"/>
     <meta property="og:image" content="{{ $page->cover }}"/>
+
+    <meta name="twitter:title" content="{{ $page->siteName }} | {{ $page->title }}">
+    <meta name="twitter:description" content="{{ $page->siteDescription }}">
+    <meta name="twitter:image" content="{{ $page->cover ? $page->cover : '/assets/images/lucky-meta.png' }}">
+    <meta name="twitter:card" content="summary_large_image">
 @endpush
 
 @section('body')
