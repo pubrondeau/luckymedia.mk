@@ -1,8 +1,8 @@
 ---
 title: Website Redesign
 client: Democracy Lab
-services: Website Design, Development, CMS
-technologies: [VueJS, Nuxt, Tailwind]
+services: Website Design, Development
+technologies: [VueJS, Tailwind CSS, Jigsaw]
 link: 'https://www.demlab.org/'
 date: 2019-08-10
 tags: [branding, web, design, development]

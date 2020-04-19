@@ -1,8 +1,8 @@
 ---
 title: Branding & Web
 client: Townhouse brunch
-services: Website Design, Development, CMS
-technologies: [VueJS, Nuxt, Tailwind]
+services: Website Design, Development
+technologies: [VueJS, Nuxt, Tailwind CSS]
 tags: [branding, web, design, development]
 link: https://www.townhousebrunch.com/
 category: work

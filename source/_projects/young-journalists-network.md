@@ -1,8 +1,8 @@
 ---
 title: Young Journalist's Network
 client: Democracy Lab
-services: Website Design, Development, CMS
-technologies: [VueJS, Nuxt, Tailwind]
+services: Website Design, Development
+technologies: [VueJS, Tailwind CSS, Jigsaw]
 link: 'https://yjn.demlab.org/'
 date: 2020-01-12
 tags: [branding, web, design, development]

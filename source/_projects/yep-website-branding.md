@@ -1,8 +1,8 @@
 ---
 title: Website Branding
 client: YEP
-services: Website Design, Development, CMS
-technologies: [VueJS, Laravel, Jigsaw]
+services: Website Design, Development
+technologies: [VueJS, Tailwind CSS, Jigsaw]
 tags: [branding, web, design, development]
 link: https://www.yep.mk/
 category: work

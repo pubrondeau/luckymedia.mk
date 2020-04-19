@@ -20,10 +20,10 @@
     <div class="flex flex-col">
         <div class="bg-white flex items-center py-5 md:py-12">
             <div class="container">
-                <div class="row my-auto items-center">
-                    <div class="col-12 text-center">
+                <div class="row justify-center my-auto">
+                    <div class="lg:col-8 text-center">
                         <h2 class="text-2xl md:text-5xl font-bold text-gray-500">{{ $page->title }}</h2>
-                        <p class="text-base uppercase font-semibold text-blue-500">{{ date('F j, Y', $page->date) }}</p>
+                        <p class="text-base uppercase font-semibold text-blue-500 mt-2">{{ date('F j, Y', $page->date) }}</p>
                     </div>
                 </div>
             </div>

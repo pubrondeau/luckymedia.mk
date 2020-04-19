@@ -31,32 +31,30 @@
                             <p class="font-medium tracking-wider text-black uppercase">Send us a message</p>
                             <div class="bg-blue-500 w-5 mt-2" style="height: 2px;"></div>
                         </div>
-                        <form class="mt-6 flex flex-col" action="">
+                        <form class="mt-6 flex flex-col" data-netlify="true" action="POST">
                             <div class="flex flex-col">
                                 <label class="sr-only" for="name">Name</label>
-                                <input placeholder="Name" class="form form-input" name="name" id="name" type="text">
+                                <input placeholder="Name" class="form form-input" name="name" id="name" type="text" required>
                             </div>
                             <div class="flex flex-col">
                                 <label class="sr-only" for="email">Email</label>
                                 <input placeholder="Email" class="form form-input mt-6" name="email" id="email"
-                                    type="email">
+                                    type="email" required>
                             </div>
                             <div class="flex flex-col">
                                 <label class="sr-only" for="subject">Subject</label>
                                 <input placeholder="Subject" class="form form-input mt-6" name="subject" id="subject"
-                                    type="text">
+                                    type="text" required>
                             </div>
                             <div class="flex flex-col">
                                 <label class="sr-only" for="message">Message</label>
                                 <textarea placeholder="Message" class="form form-area py-4 mt-6" name="message"
-                                    id="message"></textarea>
+                                    id="message" required></textarea>
                             </div>
                             <div class="flex justify-end">
-                                <button
-                                    class="flex flex-row items-center bg-blue-500 text-white text-sm py-4 px-8 mt-4">
+                                <button class="flex flex-row items-center bg-blue-500 text-white text-sm py-4 px-8 mt-4 group">
                                     Send Message
-                                    @include('_components.icon', ['name' => 'arrow', 'class' => 'w-6 h-6 text-white
-                                    ml-1'])
+                                    <x-icon name="arrow" class="w-6 h-6 text-white ml-1 group-hover:ml-4 transition-all duration-150 ease-in-out"></x-icon>
                                 </button>
                             </div>
                         </form>

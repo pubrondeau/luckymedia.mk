@@ -27,7 +27,7 @@ module.exports = {
     }
   },
   variants: {
-    margin: ['responsive', 'last'],
+    margin: ['responsive', 'hover', 'group-hover', 'last'],
     textColor: ['responsive', 'hover', 'group-hover'],
     backgroundColor: ['responsive', 'hover', 'group-hover'],
   },

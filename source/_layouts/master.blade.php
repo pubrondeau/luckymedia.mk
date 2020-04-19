@@ -42,6 +42,18 @@
     {{--  Javascript  --}}
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
+    {{-- Google Tags  --}}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36311389-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-36311389-4');
+    </script>
+
+
     @stack('scripts')
 </head>
 

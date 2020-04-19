@@ -2,7 +2,7 @@
 title: Myth Buster
 client: Democracy Lab
 services: Website Design, Development, CMS
-technologies: [VueJS, Nuxt, Tailwind]
+technologies: [VueJS, Tailwind CSS, Statamic]
 link: 'https://www.mythbuster.mk/'
 date: 2020-03-23
 tags: [branding, web, design, development]
