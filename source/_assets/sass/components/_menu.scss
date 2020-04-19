@@ -56,7 +56,7 @@
     }
 
     input~nav {
-        @apply overflow-hidden absolute top-0 left-0 w-full h-0;
+        @apply overflow-hidden fixed top-0 left-0 w-full h-0;
         background: transparent;
         z-index: 3;
         transition: .5s;
@@ -87,7 +87,7 @@
 
     input:checked~nav {
         background: rgba(0, 0, 0, 0.95);
-        height: calc(var(--vh, 1vh) * 100);
+        height: 100%;
         transition-delay: 0s;
 
         >ul {

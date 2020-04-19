@@ -12,7 +12,7 @@
                     <p class="text-sm md:text-lg font-medium text-black order-2 md:order-none">© 2020 Lucky Media — All Rights Reserved</p>
                     <div class="flex flex-row mb-5 md:mb-0">
                         <a href="https://www.facebook.com/LuckyMediaInc/" class="text-lg text-black mr-10">Facebook</a>
-                        <a href="https://www.instagram.com/luckymedia.mk/" class="text-lg text-black">Instagram</a>
+                        <a href="https://www.instagram.com/luckymedia.dev/" class="text-lg text-black">Instagram</a>
                     </div>
                 </div>
             </div>

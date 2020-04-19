@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
+    'baseUrl' => 'https://www.luckymedia.dev',
     'siteName' => 'Lucky Media',
     'siteDescription' => 'The art of beautiful design and professional digital experience.',
     'homepage' => [
