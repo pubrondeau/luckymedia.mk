@@ -11,7 +11,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
     <meta property="og:description" content="{{ $page->siteDescription }}"/>
-    <meta property="og:image" content="{{ $page->baseUrl }}{{ $page->cover ? $page->cover : 'assets/images/lucky-meta.png' }}"/>
+    <meta property="og:image" content="{{ $page->baseUrl }}{{ $page->cover ? $page->cover : '/assets/images/lucky-meta.png' }}"/>
 
     <meta name="twitter:card" content="summary_large_image">
 
