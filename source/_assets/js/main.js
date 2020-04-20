@@ -13,7 +13,7 @@ if (testimonials) {
         items: 3,
         center: true,
         autoplay: true,
-        autoplayTimeout: 4500,
+        autoplayTimeout: 6000,
         autoplayButtonOutput: false,
         responsive: {
             320: {

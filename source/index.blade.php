@@ -17,7 +17,7 @@
             </div>
             <div class="hidden lg:block lg:col-6 lg:offset-1 relative">
                 <img class="w-4/5" src="assets/images/phone.png" alt="">
-                <img style="margin-top: -400px; margin-left: 250px; z-index: -1" class="absolute"
+                <img style="margin-top: -400px; margin-left: 200px; z-index: -1" class="absolute hidden xl:block"
                      src="assets/images/triangle.png" alt="">
             </div>
         </div>

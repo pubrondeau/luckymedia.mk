@@ -6,7 +6,7 @@
     }
 
     input+label {
-        @apply fixed w-12 h-12;
+        @apply fixed w-10 h-10;
         top: 20px;
         right: 25px;
         z-index: 5;
@@ -20,7 +20,9 @@
             left: 0;
             display: block;
             background: #000;
+            transition-property: all;
             transition: .5s;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         span:first-child {
@@ -28,7 +30,7 @@
         }
 
         span:last-child {
-            top: 34px;
+            top: 30px;
         }
     }
 

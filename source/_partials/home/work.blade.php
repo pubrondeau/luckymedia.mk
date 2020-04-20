@@ -19,15 +19,18 @@
                     <img class="w-full h-auto" alt="project" srcset="{{ $project->cover_lg }}"  src="{{ $project->cover }}"/>
             </div>
         </div>
-        <div class="row mt-10">
-            <div class="flex flex-col justify-center items-center mx-auto">
-                <h2 class="text-3xl font-bold">{{ $project->client }}</h2>
-               <div class="flex flex-row flex-wrap justify-center mb-16">
-                   @foreach($project->tags as $tags)
-                       <div class="bg-blue-400 px-2 py-1 text-blue-500 uppercase rounded mt-4 mr-2 last:mr-0">{{ $tags }}</div>
-                   @endforeach
-               </div>
-                <a href="{{ $project->getUrl() }}" class="bg-blue-500 text-white px-8 py-2 uppercase">Read More</a>
+        <div class="row justify-center mt-10">
+            <div class="lg:col-8">
+                <div class="flex flex-col justify-center items-center mx-auto">
+                    <p class="text-blue-500 uppercase font-bold mb-1 text-xs tracking-widest">{{ $project->client }}</p>
+                    <h2 class="text-3xl font-bold">{{ $project->title }}</h2>
+                    <div class="flex flex-row flex-wrap justify-center mb-16">
+                        @foreach($project->tags as $tags)
+                            <div class="bg-blue-400 px-2 py-1 text-blue-500 uppercase rounded mt-4 mr-2 last:mr-0">{{ $tags }}</div>
+                        @endforeach
+                    </div>
+                    <a href="{{ $project->getUrl() }}" class="bg-blue-500 text-white px-8 py-2 uppercase">Read More</a>
+                </div>
             </div>
         </div>
     </div>

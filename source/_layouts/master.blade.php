@@ -66,7 +66,7 @@
     <div style="z-index: 9999;" class="bg-white absolute sticky w-full top-0">
         <div class="container">
             <div class="row items-center justify-between py-5">
-                <div class="col-4">
+                <div class="col-6 lg:col-4">
                     <a href="/">
                         <x-icon name="luckymedia" class="text-black h-10"></x-icon>
                     </a>
@@ -75,7 +75,7 @@
                 <nav class="hidden col-6 lg:flex flex-row justify-end">
                     <ul class="flex flex-row">
                         @foreach($page->homepage->menu as $menu)
-                            <li class="mr-4 xl:mr-8 last:mr-0 py-2 transition-all ease-in duration-100 menu-item">
+                            <li class="mr-4 xl:mr-6 last:mr-0 py-2 transition-all ease-in duration-100 menu-item">
                                 <a href="{{ $menu->link }}">{{ $menu->name }}</a>
                             </li>
                         @endforeach

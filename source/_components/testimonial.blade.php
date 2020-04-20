@@ -1,5 +1,5 @@
 <div class="flex flex-col">
-    <div class="bg-white border border-gray-100 h-64 md:h-56 shadow-xl p-5 md:p-10 relative">
+    <div class="bg-white border border-gray-100 h-64 md:h-56 shadow-xl p-5 relative">
         <x-icon name="quote" class="text-blue-500 w-20 h-20 opacity-50 absolute right-0 bottom-0"></x-icon>
         <div class="testimonial">{!! $content !!}</div>
     </div>

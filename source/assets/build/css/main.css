@@ -11555,8 +11555,8 @@ video {
 
 .menu-wrap input + label {
   position: fixed;
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   top: 20px;
   right: 25px;
   z-index: 5;
@@ -11571,8 +11571,12 @@ video {
   left: 0;
   display: block;
   background: #000;
+  -webkit-transition-property: all;
+  transition-property: all;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-wrap input + label span:first-child {
@@ -11580,7 +11584,7 @@ video {
 }
 
 .menu-wrap input + label span:last-child {
-  top: 34px;
+  top: 30px;
 }
 
 .menu-wrap label:hover {
@@ -11931,6 +11935,20 @@ video {
 .markup-series :not(pre) > code {
   background-color: ;
   color: inherit;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
 }
 
 .zoom__img {
