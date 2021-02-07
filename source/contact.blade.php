@@ -19,20 +19,21 @@
                             <div class="bg-blue-500 w-5 mt-2" style="height: 2px;"></div>
                         </div>
                         <p class="mt-6 leading-loose font-medium text-sm text-gray-300">
-                            Borce Jovanoski nr.32,<br>
-                            Gostivar 1230 <br>
-                            North Macedonia <br><br>
+                            Nous aimons parler de numérique. <br>
+                            Alors si vous avez un projet qui vous démange ou si vous voulez simplement vous présenter, écrivez-nous. <br>
+                            Nous sommes toujours heureux de discuter...<br><br>
+                            Saint avé<br><br>
                         </p>
                     </div>
                     <div class="md:w-1/2 flex flex-col">
                         <div class="flex flex-col">
-                            <p class="font-medium tracking-wider text-black uppercase">Send us a message</p>
+                            <p class="font-medium tracking-wider text-black uppercase">Envoyez nous un message</p>
                             <div class="bg-blue-500 w-5 mt-2" style="height: 2px;"></div>
                         </div>
                         <form class="mt-6 flex flex-col" data-netlify="true" action="POST">
                             <div class="flex flex-col">
                                 <label class="sr-only" for="name">Name</label>
-                                <input placeholder="Name" class="form form-input" name="name" id="name" type="text" required>
+                                <input placeholder="Name" class="form form-input" name="nom" id="name" type="text" required>
                             </div>
                             <div class="flex flex-col">
                                 <label class="sr-only" for="email">Email</label>
@@ -41,7 +42,7 @@
                             </div>
                             <div class="flex flex-col">
                                 <label class="sr-only" for="subject">Subject</label>
-                                <input placeholder="Subject" class="form form-input mt-6" name="subject" id="subject"
+                                <input placeholder="Subject" class="form form-input mt-6" name="sujet" id="subject"
                                     type="text" required>
                             </div>
                             <div class="flex flex-col">
@@ -51,7 +52,7 @@
                             </div>
                             <div class="flex justify-end">
                                 <button class="flex flex-row items-center bg-blue-500 text-white text-sm py-4 px-8 mt-4 group">
-                                    Send Message
+                                    Envoyer message
                                     <x-icon name="arrow" class="w-6 h-6 text-white ml-1 group-hover:ml-4 transition-all duration-150 ease-in-out"></x-icon>
                                 </button>
                             </div>
