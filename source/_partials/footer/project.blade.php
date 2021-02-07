@@ -5,8 +5,7 @@
                 <h1 class="text-3xl md:text-5xl text-white font-bold">Travaillons ensemble</h1>
                 <p class="font-medium text-base text-white mt-3">Nous sommes passionnés par la création d'idées innovantes et brillantes et les mettons en œuvre pour en faire une expérience merveilleuse.</p>
                 <a href="/contact"
-                   class="w-40 py-3 border border-white text-center text-white uppercase mt-10 hover:bg-white hover:text-black animate">Contact
-                    us</a>
+                   class="w-40 py-3 border border-white text-center text-white uppercase mt-10 hover:bg-white hover:text-black animate">Contactez-nous</a>
             </div>
         </div>
     </div>
