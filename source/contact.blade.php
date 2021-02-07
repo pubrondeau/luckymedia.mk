@@ -33,7 +33,7 @@
                         <form class="mt-6 flex flex-col" data-netlify="true" action="POST">
                             <div class="flex flex-col">
                                 <label class="sr-only" for="name">Name</label>
-                                <input placeholder="Name" class="form form-input" name="nom" id="name" type="text" required>
+                                <input placeholder="Nome" class="form form-input" name="name" id="name" type="text" required>
                             </div>
                             <div class="flex flex-col">
                                 <label class="sr-only" for="email">Email</label>
@@ -42,7 +42,7 @@
                             </div>
                             <div class="flex flex-col">
                                 <label class="sr-only" for="subject">Subject</label>
-                                <input placeholder="Subject" class="form form-input mt-6" name="sujet" id="subject"
+                                <input placeholder="Sujet" class="form form-input mt-6" name="subject" id="subject"
                                     type="text" required>
                             </div>
                             <div class="flex flex-col">
