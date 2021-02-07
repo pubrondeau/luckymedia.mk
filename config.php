@@ -8,11 +8,11 @@ return [
     'homepage' => [
         'menu' => [
             0 => [
-                'name' => 'Home',
+                'name' => 'Accueil',
                 'link' => '/',
             ],
             1 => [
-                'name' => 'About us',
+                'name' => 'A propos',
                 'link' => '/#about',
                 'scroll' => true,
             ],
