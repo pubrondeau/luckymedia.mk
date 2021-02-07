@@ -11,7 +11,7 @@
     <div class="container mt-24 mb-32">
         <div class="row items-center">
             <div class="lg:col-5">
-                <h2 class="text-2xl lg:text-3xl xl:text-5xl leading-none">We are</h2>
+                <h2 class="text-2xl lg:text-3xl xl:text-5xl leading-none">Notre nom est</h2>
                 <h1 class="text-3xl lg:text-4xl xl:text-6xl font-bold leading-normal">Lucky Media</h1>
                 <div style="width: 100px; height:6px" class="bg-blue-500 mt-4"></div>
             </div>
