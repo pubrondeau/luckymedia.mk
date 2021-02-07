@@ -35,7 +35,7 @@
             </div>
             <div class="row mt-24">
                 <div class="lg:col-2">
-                    <x-heading-sm color="white" title="About Us"></x-heading-sm>
+                    <x-heading-sm color="white" title="A propos de nous?"></x-heading-sm>
                 </div>
             </div>
             <div class="row mt-12 mb-56">
@@ -51,20 +51,7 @@
                         à utiliser et qui font une réelle différence pour nos clients. Pour y parvenir, nous prenons du plaisir à faire 
                         les choses au pied levé, en investissant le temps nécessaire pour découvrir exactement ce qui vous rend spécial 
                         aux yeux de vos clients, puis en le mettant en ligne.
-                        
-                        We can help you out with all your online digital strategies and business needs. Starting from your company website,
-                        custom development solutions, corporate identity, social media marketing and more. We can be the
-                        invisible hand that pushes your company forward and ahead of your competitors. Online presence
-                        is very important in the current business ecosystem and the always changing technologies.
-                        While you worry about your core business, enhancing your products and services, we make sure that you have
-                        the best practices and most advanced technological setup. 
-                        <br> <br>
-                        We can design a unique website for your company that will reflect elegance, professionalism, trust and efficiency.
-                        Our designers can provide you a complete corporate identity for your entire marketing needs, refreshing
-                        your influence and attracting possible clients. The presence on social media networks is not just having company
-                        profiles that have a few posts now and then. Our marketing team can utilize the best state-of-the-art
-                        techniques for increasing your social media presence.
-                    </p>
+                     </p>
                 </div>
             </div>
         </div>
