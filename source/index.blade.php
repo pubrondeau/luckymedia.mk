@@ -41,17 +41,14 @@
             <div class="row mt-12 mb-56">
                 <div class="lg:col-5 mb-5 lg:mb-0">
                     <h2 class="text-2xl md:text-4xl text-left text-white font-bold">
-                        L'art du beau design et de l'expérience numérique professionnelle. 
+                        L'art du design et de l'expérience numérique professionnelle. 
                     </h2>
                 </div>
                 <div class="lg:col-6 lg:offset-1">
                     <p class="font-medium text-white text-left leading-relaxed">
                         Nous sommes une petite agence de design web parfaitement formée, basée dans la belle ville de Saint avé. 
-                        The art of beautiful design and professional digital experience.<br><br>
-                        C'est en créant de bons sites web qu'on se réveille le matin. Des sites web qui sont beaux, qui sont agréables
-                        à utiliser et qui font une réelle différence pour nos clients. Pour y parvenir, nous prenons du plaisir à faire 
-                        les choses au pied levé, en investissant le temps nécessaire pour découvrir exactement ce qui vous rend spécial 
-                        aux yeux de vos clients, puis en le mettant en ligne.
+                        <br><br>
+                        C'est en créant de bons sites web qu'on se réveille le matin. Des sites web qui sont beaux, qui sont agréables à utiliser et qui font une réelle différence pour nos clients. Pour y parvenir, nous prenons du plaisir à faire les choses au pied levé, en investissant le temps nécessaire pour découvrir exactement ce qui vous rend spécial aux yeux de vos clients, puis en le mettant en ligne.
                      </p>
                 </div>
             </div>
